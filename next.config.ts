@@ -16,40 +16,8 @@ const nextConfig: NextConfig = {
     ],
   },
 
-  // Optimisations de performance
-  experimental: {
-    optimizePackageImports: ['lucide-react'],
-  },
+    // Redirection pour éviter les 404
 
-  // Headers pour Vercel
-  async headers() {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-        ],
-      },
-    ]
-  },
-
-  // Redirection pour éviter les 404
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/',
-        permanent: false,
-      },
-    ]
-  },
 }
 
 export default nextConfig
