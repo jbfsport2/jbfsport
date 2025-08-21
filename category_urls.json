@@ -1,0 +1,4546 @@
+{
+  "generated_at": "2025-08-20T16:25:53.628Z",
+  "total_categories": 13,
+  "total_subcategories": 113,
+  "total_subsubcategories": 341,
+  "total_urls": 467,
+  "category_urls": [
+    {
+      "id": "68a4f388e952766349291f95",
+      "name": "Aménagement intérieur - Gymnases et locaux",
+      "slug": "amenagement-interieur-gymnases-locaux",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-interieur-gymnases-locaux",
+      "type": "category"
+    },
+    {
+      "id": "68a4f389e952766349291fa5",
+      "name": "Aménagement extérieur - Stades, Aires de jeux",
+      "slug": "amenagement-exterieur-stades-aires-jeux",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-exterieur-stades-aires-jeux",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ae952766349291fb2",
+      "name": "Equipement multisport",
+      "slug": "equipement-multisport",
+      "url": "https://www.casalsport.com/fr/cas/equipement-multisport",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ae952766349291fbc",
+      "name": "Sports collectifs",
+      "slug": "sports-collectifs",
+      "url": "https://www.casalsport.com/fr/cas/sports-collectifs",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ae952766349291fc7",
+      "name": "Sports de raquettes",
+      "slug": "sports-raquettes",
+      "url": "https://www.casalsport.com/fr/cas/sports-raquettes",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38be952766349291fd1",
+      "name": "Gymnastique",
+      "slug": "gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/gymnastique",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38be952766349291fd8",
+      "name": "Musculation et Fitness",
+      "slug": "musculation-fitness",
+      "url": "https://www.casalsport.com/fr/cas/musculation-fitness",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ce952766349291fe0",
+      "name": "Éveil, Jeux et Motricité",
+      "slug": "eveil-jeux-motricite",
+      "url": "https://www.casalsport.com/fr/cas/eveil-jeux-motricite",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ce952766349291fea",
+      "name": "Sports outdoor",
+      "slug": "sports-outdoor",
+      "url": "https://www.casalsport.com/fr/cas/sports-outdoor",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38ce952766349291ff4",
+      "name": "Sports de Combat",
+      "slug": "sports-combat",
+      "url": "https://www.casalsport.com/fr/cas/sports-combat",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38de952766349291ffb",
+      "name": "Sports Aquatiques",
+      "slug": "sports-aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/sports-aquatiques",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38de952766349292005",
+      "name": "Athlétisme",
+      "slug": "athletisme",
+      "url": "https://www.casalsport.com/fr/cas/athletisme",
+      "type": "category"
+    },
+    {
+      "id": "68a4f38de95276634929200c",
+      "name": "Textile et bagagerie",
+      "slug": "textile-bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/textile-bagagerie",
+      "type": "category"
+    }
+  ],
+  "subcategory_urls": [
+    {
+      "id": "68a4f388e952766349291f96",
+      "name": "Marquage au sol Gymnases",
+      "slug": "marquage-sol-gymnases",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/marquage-sol-gymnases",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f388e952766349291f97",
+      "name": "Mobilier Vestiaires et Gymnases",
+      "slug": "mobilier-vestiaires-gymnases",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/mobilier-vestiaires-gymnases",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f388e952766349291f98",
+      "name": "Affichage",
+      "slug": "affichage",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/affichage",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f99",
+      "name": "Mobilier de Bureau",
+      "slug": "mobilier-bureau",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/mobilier-bureau",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9a",
+      "name": "Electroménager, Restauration",
+      "slug": "electromenager-restauration",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/electromenager-restauration",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9b",
+      "name": "Revêtements de sols Intérieurs",
+      "slug": "revetements-sols-interieurs",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/revetements-sols-interieurs",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9c",
+      "name": "Mâts, Cordes à grimper",
+      "slug": "mats-cordes-grimper",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/mats-cordes-grimper",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9d",
+      "name": "Espaliers",
+      "slug": "espaliers",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/espaliers",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9e",
+      "name": "Gradins, Tribunes",
+      "slug": "gradins-tribunes",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/gradins-tribunes",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291f9f",
+      "name": "Bancs de gymnase",
+      "slug": "bancs-gymnase",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/bancs-gymnase",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa0",
+      "name": "Tables de marque",
+      "slug": "tables-marque",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/tables-marque",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa1",
+      "name": "Séparations de salle",
+      "slug": "separations-salle",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/separations-salle",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa2",
+      "name": "Tableaux d'affichage, Scores",
+      "slug": "tableaux-affichage-scores",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/tableaux-affichage-scores",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa3",
+      "name": "Fixations et équipements en hauteur",
+      "slug": "fixations-equipements-hauteur",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/fixations-equipements-hauteur",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa4",
+      "name": "Fontaines à eau",
+      "slug": "fontaines-eau",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "url": "https://www.casalsport.com/fr/cas/fontaines-eau",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa6",
+      "name": "Revêtements de sol extérieur",
+      "slug": "revetements-sol-exterieur",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/revetements-sol-exterieur",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa7",
+      "name": "Buts multisports",
+      "slug": "buts-multisports",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/buts-multisports",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa8",
+      "name": "Abris de touche",
+      "slug": "abris-touche",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/abris-touche",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fa9",
+      "name": "Pare-ballons",
+      "slug": "pare-ballons",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/pare-ballons",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291faa",
+      "name": "Accès infrastructures",
+      "slug": "acces-infrastructures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/acces-infrastructures",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fab",
+      "name": "Brosses à chaussures",
+      "slug": "brosses-chaussures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/brosses-chaussures",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fac",
+      "name": "Traçage et délimitation de terrain",
+      "slug": "tracage-delimitation-terrain",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/tracage-delimitation-terrain",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fad",
+      "name": "Aires de jeux exterieur",
+      "slug": "aires-jeux-exterieur",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/aires-jeux-exterieur",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fae",
+      "name": "Parcours sportif",
+      "slug": "parcours-sportif",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/parcours-sportif",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291faf",
+      "name": "Stations de Fitness et Musculation extérieures",
+      "slug": "stations-fitness-musculation-exterieures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/stations-fitness-musculation-exterieures",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f389e952766349291fb0",
+      "name": "Mobilier urbain",
+      "slug": "mobilier-urbain",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/mobilier-urbain",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb1",
+      "name": "Propreté des espaces extérieurs",
+      "slug": "proprete-espaces-exterieurs",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "url": "https://www.casalsport.com/fr/cas/proprete-espaces-exterieurs",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb3",
+      "name": "Matériel Entraînement sportif",
+      "slug": "materiel-entrainement-sportif",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/materiel-entrainement-sportif",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb4",
+      "name": "Arbitrage, Coaching",
+      "slug": "arbitrage-coaching",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/arbitrage-coaching",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb5",
+      "name": "Récompenses sportives",
+      "slug": "recompenses-sportives",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/recompenses-sportives",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb6",
+      "name": "Transport et Rangement",
+      "slug": "transport-rangement",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/transport-rangement",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb7",
+      "name": "Gonflage et entretien des ballons",
+      "slug": "gonflage-entretien-ballons",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/gonflage-entretien-ballons",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb8",
+      "name": "Pharmacie du sportif",
+      "slug": "pharmacie-sportif",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/pharmacie-sportif",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fb9",
+      "name": "Organisation événement sportif",
+      "slug": "organisation-evenement-sportif",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/organisation-evenement-sportif",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fba",
+      "name": "EPI, Hygiène & Aménagement",
+      "slug": "epi-hygiene-amenagement",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/epi-hygiene-amenagement",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fbb",
+      "name": "Piles",
+      "slug": "piles",
+      "parentCategory": "Equipement multisport",
+      "url": "https://www.casalsport.com/fr/cas/piles",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fbd",
+      "name": "Football",
+      "slug": "football",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/football",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fbe",
+      "name": "Basketball",
+      "slug": "basketball",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/basketball",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fbf",
+      "name": "Handball",
+      "slug": "handball",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/handball",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc0",
+      "name": "Volleyball",
+      "slug": "volleyball",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/volleyball",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc1",
+      "name": "Rugby",
+      "slug": "rugby",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/rugby",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc2",
+      "name": "Baseball et Softball",
+      "slug": "baseball-softball",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/baseball-softball",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc3",
+      "name": "Sports de crosse",
+      "slug": "sports-crosse",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/sports-crosse",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc4",
+      "name": "Ultimate",
+      "slug": "ultimate",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/ultimate",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc5",
+      "name": "Autres Sports collectifs",
+      "slug": "autres-sports-collectifs",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/autres-sports-collectifs",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc6",
+      "name": "Mini buts",
+      "slug": "mini-buts",
+      "parentCategory": "Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/mini-buts",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ae952766349291fc8",
+      "name": "Badminton",
+      "slug": "badminton",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/badminton",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fc9",
+      "name": "Tennis de table",
+      "slug": "tennis-table",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/tennis-table",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fca",
+      "name": "Tennis",
+      "slug": "tennis",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/tennis",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fcb",
+      "name": "Padel",
+      "slug": "padel",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/padel",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fcc",
+      "name": "Squash",
+      "slug": "squash",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/squash",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fcd",
+      "name": "Speed-Badminton",
+      "slug": "speed-badminton",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/speed-badminton",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fce",
+      "name": "Pelote basque",
+      "slug": "pelote-basque",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/pelote-basque",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fcf",
+      "name": "Peteca Indiaka",
+      "slug": "peteca-indiaka",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/peteca-indiaka",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd0",
+      "name": "Pickleball",
+      "slug": "pickleball",
+      "parentCategory": "Sports de raquettes",
+      "url": "https://www.casalsport.com/fr/cas/pickleball",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd2",
+      "name": "Agrès de Gymnastique",
+      "slug": "agres-gymnastique",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/agres-gymnastique",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd3",
+      "name": "Equipement Gymnastique indispensable",
+      "slug": "equipement-gymnastique-indispensable",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/equipement-gymnastique-indispensable",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd4",
+      "name": "Engins de GR - Gymnastique Rythmique",
+      "slug": "engins-gr-gymnastique-rythmique",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/engins-gr-gymnastique-rythmique",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd5",
+      "name": "Cirque et Jonglage",
+      "slug": "cirque-jonglage",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/cirque-jonglage",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd6",
+      "name": "Equipement salle de Danse",
+      "slug": "equipement-salle-danse",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/equipement-salle-danse",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd7",
+      "name": "Gymnastique urbaine, parkour",
+      "slug": "gymnastique-urbaine-parkour",
+      "parentCategory": "Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/gymnastique-urbaine-parkour",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fd9",
+      "name": "Equipement de musculation",
+      "slug": "equipement-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/equipement-musculation",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fda",
+      "name": "Haltères, Barres, Disques, Poids",
+      "slug": "halteres-barres-disques-poids",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/halteres-barres-disques-poids",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fdb",
+      "name": "Equipement de Fitness et Cross training",
+      "slug": "equipement-fitness-cross-training",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/equipement-fitness-cross-training",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fdc",
+      "name": "Appareils Fitness et Cardio training",
+      "slug": "appareils-fitness-cardio-training",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/appareils-fitness-cardio-training",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fdd",
+      "name": "Pilate, Gym douce et Yoga",
+      "slug": "pilate-gym-douce-yoga",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/pilate-gym-douce-yoga",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fde",
+      "name": "Aménagement salle de Musculation",
+      "slug": "amenagement-salle-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-salle-musculation",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38be952766349291fdf",
+      "name": "Protections Musculation",
+      "slug": "protections-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "url": "https://www.casalsport.com/fr/cas/protections-musculation",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe1",
+      "name": "Jeux de société, Babyfoot",
+      "slug": "jeux-societe-babyfoot",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/jeux-societe-babyfoot",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe2",
+      "name": "Draisiennes, Tricycles, Vélos",
+      "slug": "draisiennes-tricycles-velos",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/draisiennes-tricycles-velos",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe3",
+      "name": "Apprentissage scolaire de la Sécurité routière",
+      "slug": "apprentissage-scolaire-securite-routiere",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/apprentissage-scolaire-securite-routiere",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe4",
+      "name": "Activités gymniques",
+      "slug": "activites-gymniques",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/activites-gymniques",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe5",
+      "name": "Equilibre, Coordination",
+      "slug": "equilibre-coordination",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/equilibre-coordination",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe6",
+      "name": "Activités collectives",
+      "slug": "activites-collectives",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/activites-collectives",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe7",
+      "name": "Jeux coopératifs",
+      "slug": "jeux-cooperatifs",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/jeux-cooperatifs",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe8",
+      "name": "Activités artistiques",
+      "slug": "activites-artistiques",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/activites-artistiques",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fe9",
+      "name": "Mobilier enfant collectivités",
+      "slug": "mobilier-enfant-collectivites",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "url": "https://www.casalsport.com/fr/cas/mobilier-enfant-collectivites",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291feb",
+      "name": "Escalade",
+      "slug": "escalade",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/escalade",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fec",
+      "name": "Mobilité Urbaine",
+      "slug": "mobilite-urbaine",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/mobilite-urbaine",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fed",
+      "name": "Randonnée et Camping",
+      "slug": "randonnee-camping",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/randonnee-camping",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fee",
+      "name": "Archerie et Tir",
+      "slug": "archerie-tir",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/archerie-tir",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291fef",
+      "name": "Sports de Précision",
+      "slug": "sports-precision",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/sports-precision",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff0",
+      "name": "Sports de Vent",
+      "slug": "sports-vent",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/sports-vent",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff1",
+      "name": "Loisirs et Jeux",
+      "slug": "loisirs-jeux",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/loisirs-jeux",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff2",
+      "name": "Sports d'hiver",
+      "slug": "sports-hiver",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/sports-hiver",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff3",
+      "name": "Course d'orientation",
+      "slug": "course-orientation",
+      "parentCategory": "Sports outdoor",
+      "url": "https://www.casalsport.com/fr/cas/course-orientation",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff5",
+      "name": "Aménagement Dojo, Salles de Boxe, Rings",
+      "slug": "amenagement-dojo-salles-boxe-rings",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-dojo-salles-boxe-rings",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff6",
+      "name": "Arts Martiaux",
+      "slug": "arts-martiaux",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/arts-martiaux",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff7",
+      "name": "Boxe, MMA",
+      "slug": "boxe-mma",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/boxe-mma",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ce952766349291ff8",
+      "name": "Self défense, Krav Maga",
+      "slug": "self-defense-krav-maga",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/self-defense-krav-maga",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291ff9",
+      "name": "Escrime",
+      "slug": "escrime",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/escrime",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291ffa",
+      "name": "Protections Boxe et Arts Martiaux",
+      "slug": "protections-boxe-arts-martiaux",
+      "parentCategory": "Sports de Combat",
+      "url": "https://www.casalsport.com/fr/cas/protections-boxe-arts-martiaux",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291ffc",
+      "name": "Snorkeling",
+      "slug": "snorkeling",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/snorkeling",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291ffd",
+      "name": "Bébés Nageurs",
+      "slug": "bebes-nageurs",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/bebes-nageurs",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291ffe",
+      "name": "Natation",
+      "slug": "natation",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/natation",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349291fff",
+      "name": "Aquagym et Aquabike",
+      "slug": "aquagym-aquabike",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/aquagym-aquabike",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292000",
+      "name": "Equipement piscine, jeux aquatiques",
+      "slug": "equipement-piscine-jeux-aquatiques",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/equipement-piscine-jeux-aquatiques",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292001",
+      "name": "Water-polo",
+      "slug": "water-polo",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/water-polo",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292002",
+      "name": "Sports de Pagaies",
+      "slug": "sports-pagaies",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/sports-pagaies",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292003",
+      "name": "Sports de Voile",
+      "slug": "sports-voile",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/sports-voile",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292004",
+      "name": "Sports de Glisse",
+      "slug": "sports-glisse",
+      "parentCategory": "Sports Aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/sports-glisse",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292006",
+      "name": "Marche Nordique",
+      "slug": "marche-nordique",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/marche-nordique",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292007",
+      "name": "Matériel de Course à pied",
+      "slug": "materiel-course-pied",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/materiel-course-pied",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292008",
+      "name": "Lancer Athlétisme",
+      "slug": "lancer-athletisme",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/lancer-athletisme",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de952766349292009",
+      "name": "Saut Athlétisme",
+      "slug": "saut-athletisme",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/saut-athletisme",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de95276634929200a",
+      "name": "Instruments de mesure Athlétisme",
+      "slug": "instruments-mesure-athletisme",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/instruments-mesure-athletisme",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de95276634929200b",
+      "name": "Kits initiation Athlétisme",
+      "slug": "kits-initiation-athletisme",
+      "parentCategory": "Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/kits-initiation-athletisme",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de95276634929200d",
+      "name": "Vêtements, tenues Gardien multisports",
+      "slug": "vetements-tenues-gardien-multisports",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/vetements-tenues-gardien-multisports",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de95276634929200e",
+      "name": "Tenue Arbitre",
+      "slug": "tenue-arbitre",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/tenue-arbitre",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38de95276634929200f",
+      "name": "Tee-shirts personnalisables",
+      "slug": "tee-shirts-personnalisables",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/tee-shirts-personnalisables",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ee952766349292010",
+      "name": "Bagagerie",
+      "slug": "bagagerie",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/bagagerie",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ee952766349292011",
+      "name": "Accessoires textile",
+      "slug": "accessoires-textile",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-textile",
+      "type": "subcategory"
+    },
+    {
+      "id": "68a4f38ee952766349292012",
+      "name": "Textile Multisport",
+      "slug": "textile-multisport",
+      "parentCategory": "Textile et bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/textile-multisport",
+      "type": "subcategory"
+    }
+  ],
+  "subsubcategory_urls": [
+    {
+      "id": "68a5098d258168b2c2156c1b",
+      "name": "Bancs Vestiaire et Patères",
+      "slug": "bancs-vestiaire-et-patres",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier Vestiaires et Gymnases",
+      "url": "https://www.casalsport.com/fr/cas/bancs-vestiaire-et-patres",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c1c",
+      "name": "Vestiaires Multicases",
+      "slug": "vestiaires-multicases",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier Vestiaires et Gymnases",
+      "url": "https://www.casalsport.com/fr/cas/vestiaires-multicases",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c1d",
+      "name": "Casiers vestiaires et vestiaires sport",
+      "slug": "casiers-vestiaires-et-vestiaires-sport",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier Vestiaires et Gymnases",
+      "url": "https://www.casalsport.com/fr/cas/casiers-vestiaires-et-vestiaires-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c1e",
+      "name": "Accessoires Vestiaires",
+      "slug": "accessoires-vestiaires",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier Vestiaires et Gymnases",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-vestiaires",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c1f",
+      "name": "Cadenas, antivols",
+      "slug": "cadenas-antivols",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier Vestiaires et Gymnases",
+      "url": "https://www.casalsport.com/fr/cas/cadenas-antivols",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c20",
+      "name": "Vitrines d'affichage",
+      "slug": "vitrines-daffichage",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Affichage",
+      "url": "https://www.casalsport.com/fr/cas/vitrines-daffichage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c21",
+      "name": "Panneaux liège, tableaux blancs",
+      "slug": "panneaux-lige-tableaux-blancs",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Affichage",
+      "url": "https://www.casalsport.com/fr/cas/panneaux-lige-tableaux-blancs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c22",
+      "name": "Accessoires Tableaux, Vitrines",
+      "slug": "accessoires-tableaux-vitrines",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Affichage",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-tableaux-vitrines",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c23",
+      "name": "Bureaux",
+      "slug": "bureaux",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier de Bureau",
+      "url": "https://www.casalsport.com/fr/cas/bureaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098d258168b2c2156c24",
+      "name": "Tables de réunion",
+      "slug": "tables-de-runion",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier de Bureau",
+      "url": "https://www.casalsport.com/fr/cas/tables-de-runion",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098e258168b2c2156c25",
+      "name": "Chaises de bureau",
+      "slug": "chaises-de-bureau",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier de Bureau",
+      "url": "https://www.casalsport.com/fr/cas/chaises-de-bureau",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098e258168b2c2156c26",
+      "name": "Coffre-fort, Lampes, Porte manteaux, Horloges",
+      "slug": "coffre-fort-lampes-porte-manteaux-horloges",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier de Bureau",
+      "url": "https://www.casalsport.com/fr/cas/coffre-fort-lampes-porte-manteaux-horloges",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098e258168b2c2156c27",
+      "name": "Armoires, Caissons de bureau",
+      "slug": "armoires-caissons-de-bureau",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Mobilier de Bureau",
+      "url": "https://www.casalsport.com/fr/cas/armoires-caissons-de-bureau",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098e258168b2c2156c28",
+      "name": "Mobilier de restauration",
+      "slug": "mobilier-de-restauration",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Electroménager, Restauration",
+      "url": "https://www.casalsport.com/fr/cas/mobilier-de-restauration",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5098e258168b2c2156c29",
+      "name": "Arts de la table",
+      "slug": "arts-de-la-table",
+      "parentCategory": "Aménagement intérieur - Gymnases et locaux",
+      "parentSubcategory": "Electroménager, Restauration",
+      "url": "https://www.casalsport.com/fr/cas/arts-de-la-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5b0069dab830c2586c",
+      "name": "Délimitation de terrain",
+      "slug": "dlimitation-de-terrain",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Traçage et délimitation de terrain",
+      "url": "https://www.casalsport.com/fr/cas/dlimitation-de-terrain",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5b0069dab830c2586d",
+      "name": "Peintures pour gazon",
+      "slug": "peintures-pour-gazon",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Traçage et délimitation de terrain",
+      "url": "https://www.casalsport.com/fr/cas/peintures-pour-gazon",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5b0069dab830c2586e",
+      "name": "Traceuses pour gazon",
+      "slug": "traceuses-pour-gazon",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Traçage et délimitation de terrain",
+      "url": "https://www.casalsport.com/fr/cas/traceuses-pour-gazon",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5b0069dab830c2586f",
+      "name": "Matériel de Street Workout",
+      "slug": "matriel-de-street-workout",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Parcours sportif",
+      "url": "https://www.casalsport.com/fr/cas/matriel-de-street-workout",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25870",
+      "name": "Matériel pour parcours du combattant",
+      "slug": "matriel-pour-parcours-du-combattant",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Parcours sportif",
+      "url": "https://www.casalsport.com/fr/cas/matriel-pour-parcours-du-combattant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25871",
+      "name": "Matériel pour parcours de Ninja",
+      "slug": "matriel-pour-parcours-de-ninja",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Parcours sportif",
+      "url": "https://www.casalsport.com/fr/cas/matriel-pour-parcours-de-ninja",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25872",
+      "name": "Parcours de Santé",
+      "slug": "parcours-de-sant",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Parcours sportif",
+      "url": "https://www.casalsport.com/fr/cas/parcours-de-sant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25873",
+      "name": "Bancs d'extérieur",
+      "slug": "bancs-dextrieur",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Mobilier urbain",
+      "url": "https://www.casalsport.com/fr/cas/bancs-dextrieur",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25874",
+      "name": "Tables extérieures",
+      "slug": "tables-extrieures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Mobilier urbain",
+      "url": "https://www.casalsport.com/fr/cas/tables-extrieures",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25875",
+      "name": "Abris Fumeurs",
+      "slug": "abris-fumeurs",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/abris-fumeurs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25876",
+      "name": "Cendriers extérieurs",
+      "slug": "cendriers-extrieurs",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/cendriers-extrieurs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25877",
+      "name": "Poubelles extérieures",
+      "slug": "poubelles-extrieures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/poubelles-extrieures",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25878",
+      "name": "Bennes, Conteneurs",
+      "slug": "bennes-conteneurs",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/bennes-conteneurs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c25879",
+      "name": "Poubelles de tri extérieures",
+      "slug": "poubelles-de-tri-extrieures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/poubelles-de-tri-extrieures",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a50a5c0069dab830c2587a",
+      "name": "Accessoires Poubelles extérieures",
+      "slug": "accessoires-poubelles-extrieures",
+      "parentCategory": "Aménagement extérieur - Stades, Aires de jeux",
+      "parentSubcategory": "Propreté des espaces extérieurs",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-poubelles-extrieures",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e3",
+      "name": "Plots et cônes de Sport",
+      "slug": "plots-et-cnes-de-sport",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/plots-et-cnes-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e4",
+      "name": "Cerceaux et Jalons",
+      "slug": "cerceaux-et-jalons",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/cerceaux-et-jalons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e5",
+      "name": "Chasubles de sport",
+      "slug": "chasubles-de-sport",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/chasubles-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e6",
+      "name": "Echelles de rythme",
+      "slug": "echelles-de-rythme",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/echelles-de-rythme",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e7",
+      "name": "Mini-haies Entrainement",
+      "slug": "mini-haies-entrainement",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/mini-haies-entrainement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e8",
+      "name": "Marquage au sol Entrainement",
+      "slug": "marquage-au-sol-entrainement",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/marquage-au-sol-entrainement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5e9",
+      "name": "Kits d’apprentissage",
+      "slug": "kits-dapprentissage",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/kits-dapprentissage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d430d3e8e72c23e7d5ea",
+      "name": "Harnais de résistance",
+      "slug": "harnais-de-rsistance",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Matériel Entraînement sportif",
+      "url": "https://www.casalsport.com/fr/cas/harnais-de-rsistance",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5ee",
+      "name": "Sifflets",
+      "slug": "sifflets",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/sifflets",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5ef",
+      "name": "Chronomètres de Sport",
+      "slug": "chronomtres-de-sport",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/chronomtres-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f0",
+      "name": "Montres cardio, cardiofréquencemètres",
+      "slug": "montres-cardio-cardiofrquencemtres",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/montres-cardio-cardiofrquencemtres",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f1",
+      "name": "Tableaux tactiques, Portes licences",
+      "slug": "tableaux-tactiques-portes-licences",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/tableaux-tactiques-portes-licences",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f2",
+      "name": "Brassards de sport",
+      "slug": "brassards-de-sport",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/brassards-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f3",
+      "name": "Sacoches et porte-documents",
+      "slug": "sacoches-et-porte-documents",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/sacoches-et-porte-documents",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f4",
+      "name": "Cartons, plaquettes et accessoires arbitre",
+      "slug": "cartons-plaquettes-et-accessoires-arbitre",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/cartons-plaquettes-et-accessoires-arbitre",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f5",
+      "name": "Gourdes, Bouteilles isothermes",
+      "slug": "gourdes-bouteilles-isothermes",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/gourdes-bouteilles-isothermes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d447d3e8e72c23e7d5f6",
+      "name": "Balances, pèse-personnes",
+      "slug": "balances-pse-personnes",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Arbitrage, Coaching",
+      "url": "https://www.casalsport.com/fr/cas/balances-pse-personnes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d455d3e8e72c23e7d5fa",
+      "name": "Coupes et trophées sportifs",
+      "slug": "coupes-et-trophes-sportifs",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Récompenses sportives",
+      "url": "https://www.casalsport.com/fr/cas/coupes-et-trophes-sportifs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d455d3e8e72c23e7d5fb",
+      "name": "Médailles, Rubans",
+      "slug": "mdailles-rubans",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Récompenses sportives",
+      "url": "https://www.casalsport.com/fr/cas/mdailles-rubans",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d455d3e8e72c23e7d5fc",
+      "name": "Podiums de sport",
+      "slug": "podiums-de-sport",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Récompenses sportives",
+      "url": "https://www.casalsport.com/fr/cas/podiums-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d600",
+      "name": "Sacs et Filets à ballons",
+      "slug": "sacs-et-filets-ballons",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/sacs-et-filets-ballons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d601",
+      "name": "Chariots de manutention",
+      "slug": "chariots-de-manutention",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/chariots-de-manutention",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d602",
+      "name": "Coffres et malles de rangement",
+      "slug": "coffres-et-malles-de-rangement",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/coffres-et-malles-de-rangement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d603",
+      "name": "Rayonnage",
+      "slug": "rayonnage",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/rayonnage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d604",
+      "name": "Bacs de rangement",
+      "slug": "bacs-de-rangement",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/bacs-de-rangement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d605",
+      "name": "Roll-conteneurs",
+      "slug": "roll-conteneurs",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/roll-conteneurs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d606",
+      "name": "Armoires de rangement",
+      "slug": "armoires-de-rangement",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/armoires-de-rangement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d469d3e8e72c23e7d607",
+      "name": "Rangement Sportif",
+      "slug": "rangement-sportif",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Transport et Rangement",
+      "url": "https://www.casalsport.com/fr/cas/rangement-sportif",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d499d3e8e72c23e7d617",
+      "name": "Accessoires gonflage ballons",
+      "slug": "accessoires-gonflage-ballons",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Gonflage et entretien des ballons",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-gonflage-ballons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d499d3e8e72c23e7d618",
+      "name": "Pompes à ballons",
+      "slug": "pompes-ballons",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Gonflage et entretien des ballons",
+      "url": "https://www.casalsport.com/fr/cas/pompes-ballons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d499d3e8e72c23e7d619",
+      "name": "Compresseurs à ballons",
+      "slug": "compresseurs-ballons",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Gonflage et entretien des ballons",
+      "url": "https://www.casalsport.com/fr/cas/compresseurs-ballons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4a7d3e8e72c23e7d61d",
+      "name": "Matériel de premiers secours",
+      "slug": "matriel-de-premiers-secours",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Pharmacie du sportif",
+      "url": "https://www.casalsport.com/fr/cas/matriel-de-premiers-secours",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4a7d3e8e72c23e7d61e",
+      "name": "Récupération",
+      "slug": "rcupration",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Pharmacie du sportif",
+      "url": "https://www.casalsport.com/fr/cas/rcupration",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4a7d3e8e72c23e7d61f",
+      "name": "Rééducation et stimulation",
+      "slug": "rducation-et-stimulation",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Pharmacie du sportif",
+      "url": "https://www.casalsport.com/fr/cas/rducation-et-stimulation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4a7d3e8e72c23e7d620",
+      "name": "Défibrillateurs et accessoires",
+      "slug": "dfibrillateurs-et-accessoires",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Pharmacie du sportif",
+      "url": "https://www.casalsport.com/fr/cas/dfibrillateurs-et-accessoires",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b4d3e8e72c23e7d624",
+      "name": "Projecteurs, Jeux de lumière",
+      "slug": "projecteurs-jeux-de-lumire",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/projecteurs-jeux-de-lumire",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b4d3e8e72c23e7d625",
+      "name": "Sonos portables et accessoires",
+      "slug": "sonos-portables-et-accessoires",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/sonos-portables-et-accessoires",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b4d3e8e72c23e7d626",
+      "name": "Stands et tentes de réception",
+      "slug": "stands-et-tentes-de-rception",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/stands-et-tentes-de-rception",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b4d3e8e72c23e7d627",
+      "name": "Quincaillerie",
+      "slug": "quincaillerie",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/quincaillerie",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b4d3e8e72c23e7d628",
+      "name": "Tables pliantes et bancs",
+      "slug": "tables-pliantes-et-bancs",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/tables-pliantes-et-bancs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b5d3e8e72c23e7d629",
+      "name": "Rubalise et cônes de signalisation",
+      "slug": "rubalise-et-cnes-de-signalisation",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/rubalise-et-cnes-de-signalisation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b5d3e8e72c23e7d62a",
+      "name": "Marquage au sol intérieur, extérieur",
+      "slug": "marquage-au-sol-intrieur-extrieur",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/marquage-au-sol-intrieur-extrieur",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b5d3e8e72c23e7d62b",
+      "name": "Porte voix et talkies walkies",
+      "slug": "porte-voix-et-talkies-walkies",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/porte-voix-et-talkies-walkies",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4b5d3e8e72c23e7d62c",
+      "name": "Vaisselle jetable",
+      "slug": "vaisselle-jetable",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "Organisation événement sportif",
+      "url": "https://www.casalsport.com/fr/cas/vaisselle-jetable",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4c1d3e8e72c23e7d630",
+      "name": "Gestion des déchets",
+      "slug": "gestion-des-dchets",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "EPI, Hygiène & Aménagement",
+      "url": "https://www.casalsport.com/fr/cas/gestion-des-dchets",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4c1d3e8e72c23e7d631",
+      "name": "Produits d'entretien et de nettoyage",
+      "slug": "produits-dentretien-et-de-nettoyage",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "EPI, Hygiène & Aménagement",
+      "url": "https://www.casalsport.com/fr/cas/produits-dentretien-et-de-nettoyage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4c1d3e8e72c23e7d632",
+      "name": "Equipement d'hygiène et de protection",
+      "slug": "equipement-dhygine-et-de-protection",
+      "parentCategory": "Equipement multisport",
+      "parentSubcategory": "EPI, Hygiène & Aménagement",
+      "url": "https://www.casalsport.com/fr/cas/equipement-dhygine-et-de-protection",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d2d3e8e72c23e7d636",
+      "name": "Ballons de Football",
+      "slug": "ballons-de-football",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/ballons-de-football",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d2d3e8e72c23e7d637",
+      "name": "Ballons Futsal",
+      "slug": "ballons-futsal",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/ballons-futsal",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d2d3e8e72c23e7d638",
+      "name": "Matériel buts Football",
+      "slug": "matriel-buts-football",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/matriel-buts-football",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d2d3e8e72c23e7d639",
+      "name": "Filets de buts de Foot",
+      "slug": "filets-de-buts-de-foot",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/filets-de-buts-de-foot",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d3d3e8e72c23e7d63a",
+      "name": "Accessoires d'entrainement de Football",
+      "slug": "accessoires-dentrainement-de-football",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-dentrainement-de-football",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d3d3e8e72c23e7d63b",
+      "name": "Gants de Gardien de Foot",
+      "slug": "gants-de-gardien-de-foot",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/gants-de-gardien-de-foot",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d3d3e8e72c23e7d63c",
+      "name": "Mini buts de Foot",
+      "slug": "mini-buts-de-foot",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/mini-buts-de-foot",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d4d3d3e8e72c23e7d63d",
+      "name": "Beach Soccer",
+      "slug": "beach-soccer",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Football",
+      "url": "https://www.casalsport.com/fr/cas/beach-soccer",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d641",
+      "name": "Ballons de Basket",
+      "slug": "ballons-de-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/ballons-de-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d642",
+      "name": "Accessoires entrainement de Basket",
+      "slug": "accessoires-entrainement-de-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-entrainement-de-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d643",
+      "name": "Filets, cercles de Basket pour paniers",
+      "slug": "filets-cercles-de-basket-pour-paniers",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/filets-cercles-de-basket-pour-paniers",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d644",
+      "name": "Panneaux de Basket",
+      "slug": "panneaux-de-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/panneaux-de-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d645",
+      "name": "Accessoires terrain de Basket",
+      "slug": "accessoires-terrain-de-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-terrain-de-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d646",
+      "name": "Kits pédagogiques Basket",
+      "slug": "kits-pdagogiques-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/kits-pdagogiques-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d547d3e8e72c23e7d647",
+      "name": "Paniers de Basket, buts de Basket",
+      "slug": "paniers-de-basket-buts-de-basket",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Basketball",
+      "url": "https://www.casalsport.com/fr/cas/paniers-de-basket-buts-de-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d64b",
+      "name": "Ballons de Handball",
+      "slug": "ballons-de-handball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/ballons-de-handball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d64c",
+      "name": "Buts de Handball",
+      "slug": "buts-de-handball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/buts-de-handball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d64d",
+      "name": "Filets de but de Hand",
+      "slug": "filets-de-but-de-hand",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/filets-de-but-de-hand",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d64e",
+      "name": "Accessoires d'entrainement de Handball",
+      "slug": "accessoires-dentrainement-de-handball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-dentrainement-de-handball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d64f",
+      "name": "Kits pédagogiques Hand",
+      "slug": "kits-pdagogiques-hand",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/kits-pdagogiques-hand",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d556d3e8e72c23e7d650",
+      "name": "Sandball",
+      "slug": "sandball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Handball",
+      "url": "https://www.casalsport.com/fr/cas/sandball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d563d3e8e72c23e7d654",
+      "name": "Ballons de Volley",
+      "slug": "ballons-de-volley",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Volleyball",
+      "url": "https://www.casalsport.com/fr/cas/ballons-de-volley",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d563d3e8e72c23e7d655",
+      "name": "Poteaux, Accessoires terrains de Volley",
+      "slug": "poteaux-accessoires-terrains-de-volley",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Volleyball",
+      "url": "https://www.casalsport.com/fr/cas/poteaux-accessoires-terrains-de-volley",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d563d3e8e72c23e7d656",
+      "name": "Filets de Volley",
+      "slug": "filets-de-volley",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Volleyball",
+      "url": "https://www.casalsport.com/fr/cas/filets-de-volley",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d563d3e8e72c23e7d657",
+      "name": "Beach Volley",
+      "slug": "beach-volley",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Volleyball",
+      "url": "https://www.casalsport.com/fr/cas/beach-volley",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d572d3e8e72c23e7d65b",
+      "name": "Ballons de Rugby",
+      "slug": "ballons-de-rugby",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Rugby",
+      "url": "https://www.casalsport.com/fr/cas/ballons-de-rugby",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d572d3e8e72c23e7d65c",
+      "name": "Poteaux de Rugby, buts de Rugby",
+      "slug": "poteaux-de-rugby-buts-de-rugby",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Rugby",
+      "url": "https://www.casalsport.com/fr/cas/poteaux-de-rugby-buts-de-rugby",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d572d3e8e72c23e7d65d",
+      "name": "Equipement d'entrainement Rugby",
+      "slug": "equipement-dentrainement-rugby",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Rugby",
+      "url": "https://www.casalsport.com/fr/cas/equipement-dentrainement-rugby",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d572d3e8e72c23e7d65e",
+      "name": "Boucliers de Rugby, Sacs de plaquage",
+      "slug": "boucliers-de-rugby-sacs-de-plaquage",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Rugby",
+      "url": "https://www.casalsport.com/fr/cas/boucliers-de-rugby-sacs-de-plaquage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d572d3e8e72c23e7d65f",
+      "name": "Accessoires terrain de Rugby",
+      "slug": "accessoires-terrain-de-rugby",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Rugby",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-terrain-de-rugby",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d599d3e8e72c23e7d663",
+      "name": "Battes de Baseball",
+      "slug": "battes-de-baseball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Baseball et Softball",
+      "url": "https://www.casalsport.com/fr/cas/battes-de-baseball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d599d3e8e72c23e7d664",
+      "name": "Balles de Baseball et Softball",
+      "slug": "balles-de-baseball-et-softball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Baseball et Softball",
+      "url": "https://www.casalsport.com/fr/cas/balles-de-baseball-et-softball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d599d3e8e72c23e7d665",
+      "name": "Gants, Protections, Accessoires de Baseball",
+      "slug": "gants-protections-accessoires-de-baseball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Baseball et Softball",
+      "url": "https://www.casalsport.com/fr/cas/gants-protections-accessoires-de-baseball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d599d3e8e72c23e7d666",
+      "name": "Kits initiation Baseball",
+      "slug": "kits-initiation-baseball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Baseball et Softball",
+      "url": "https://www.casalsport.com/fr/cas/kits-initiation-baseball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5acd3e8e72c23e7d66a",
+      "name": "Matériel Floorball, Unihockey, Lacrosse",
+      "slug": "matriel-floorball-unihockey-lacrosse",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Sports de crosse",
+      "url": "https://www.casalsport.com/fr/cas/matriel-floorball-unihockey-lacrosse",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5acd3e8e72c23e7d66b",
+      "name": "Matériel de Hockey et Street Hockey",
+      "slug": "matriel-de-hockey-et-street-hockey",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Sports de crosse",
+      "url": "https://www.casalsport.com/fr/cas/matriel-de-hockey-et-street-hockey",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d66f",
+      "name": "Tchoukball",
+      "slug": "tchoukball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/tchoukball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d670",
+      "name": "Kin-ball®",
+      "slug": "kin-ball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/kin-ball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d671",
+      "name": "Spikeball",
+      "slug": "spikeball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/spikeball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d672",
+      "name": "Football américain",
+      "slug": "football-amricain",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/football-amricain",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d673",
+      "name": "Bumball",
+      "slug": "bumball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/bumball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d674",
+      "name": "Foobaskill",
+      "slug": "foobaskill",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/foobaskill",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5bfd3e8e72c23e7d675",
+      "name": "CardioGoal et Poull Ball",
+      "slug": "cardiogoal-et-poull-ball",
+      "parentCategory": "Sports collectifs",
+      "parentSubcategory": "Autres Sports collectifs",
+      "url": "https://www.casalsport.com/fr/cas/cardiogoal-et-poull-ball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d4d3e8e72c23e7d679",
+      "name": "Raquettes de Badminton",
+      "slug": "raquettes-de-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/raquettes-de-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67a",
+      "name": "Volants Badminton",
+      "slug": "volants-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/volants-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67b",
+      "name": "Poteaux de Badminton",
+      "slug": "poteaux-de-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/poteaux-de-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67c",
+      "name": "Filets Badminton",
+      "slug": "filets-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/filets-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67d",
+      "name": "Kits Badminton",
+      "slug": "kits-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/kits-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67e",
+      "name": "Accessoires Badminton",
+      "slug": "accessoires-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5d5d3e8e72c23e7d67f",
+      "name": "Rangement Badminton",
+      "slug": "rangement-badminton",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Badminton",
+      "url": "https://www.casalsport.com/fr/cas/rangement-badminton",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d683",
+      "name": "Raquettes de Tennis de table",
+      "slug": "raquettes-de-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/raquettes-de-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d684",
+      "name": "Balles Tennis de table",
+      "slug": "balles-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/balles-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d685",
+      "name": "Tables de Tennis de table",
+      "slug": "tables-de-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/tables-de-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d686",
+      "name": "Filets, Poteaux Tennis de table",
+      "slug": "filets-poteaux-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/filets-poteaux-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d687",
+      "name": "Kits Tennis de table",
+      "slug": "kits-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/kits-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d688",
+      "name": "Robots, Accessoires Tennis de table",
+      "slug": "robots-accessoires-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/robots-accessoires-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5e0d3e8e72c23e7d689",
+      "name": "Rangement Tennis de table",
+      "slug": "rangement-tennis-de-table",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis de table",
+      "url": "https://www.casalsport.com/fr/cas/rangement-tennis-de-table",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f2d3e8e72c23e7d68d",
+      "name": "Raquette de Tennis",
+      "slug": "raquette-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/raquette-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f2d3e8e72c23e7d68e",
+      "name": "Balles de Tennis",
+      "slug": "balles-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/balles-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f2d3e8e72c23e7d68f",
+      "name": "Filets de Tennis",
+      "slug": "filets-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/filets-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f3d3e8e72c23e7d690",
+      "name": "Poteaux de Tennis",
+      "slug": "poteaux-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/poteaux-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f3d3e8e72c23e7d691",
+      "name": "Equipement Terrain de Tennis",
+      "slug": "equipement-terrain-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/equipement-terrain-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d5f3d3e8e72c23e7d692",
+      "name": "Accessoires de Tennis",
+      "slug": "accessoires-de-tennis",
+      "parentCategory": "Sports de raquettes",
+      "parentSubcategory": "Tennis",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-de-tennis",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d696",
+      "name": "Barres de Gymnastique",
+      "slug": "barres-de-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/barres-de-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d697",
+      "name": "Poutres Gymnastique",
+      "slug": "poutres-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/poutres-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d698",
+      "name": "Plinths, Tables de saut Gymnastique",
+      "slug": "plinths-tables-de-saut-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/plinths-tables-de-saut-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d699",
+      "name": "Trampolines Gymnastique",
+      "slug": "trampolines-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/trampolines-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d69a",
+      "name": "Maniques de Gymnastique",
+      "slug": "maniques-de-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/maniques-de-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d69b",
+      "name": "Tremplins Gymnastique",
+      "slug": "tremplins-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/tremplins-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d604d3e8e72c23e7d69c",
+      "name": "Magnésie Gymnastique",
+      "slug": "magnsie-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Agrès de Gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/magnsie-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a0",
+      "name": "Tapis de Gymnastique",
+      "slug": "tapis-de-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/tapis-de-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a1",
+      "name": "Matelas Gymnastique",
+      "slug": "matelas-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/matelas-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a2",
+      "name": "Pistes, Chemins de Gymnastique",
+      "slug": "pistes-chemins-de-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/pistes-chemins-de-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a3",
+      "name": "Modules de Gymnastique",
+      "slug": "modules-de-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/modules-de-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a4",
+      "name": "Praticables, Aires évolution Gymnastique",
+      "slug": "praticables-aires-volution-gymnastique",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/praticables-aires-volution-gymnastique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d610d3e8e72c23e7d6a5",
+      "name": "Matériel Gymnastique gonflable",
+      "slug": "matriel-gymnastique-gonflable",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/matriel-gymnastique-gonflable",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d796",
+      "name": "Rangement piscine",
+      "slug": "rangement-piscine",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/rangement-piscine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d797",
+      "name": "Caillebotis piscine",
+      "slug": "caillebotis-piscine",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/caillebotis-piscine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d798",
+      "name": "Vestiaires piscine",
+      "slug": "vestiaires-piscine",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/vestiaires-piscine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d799",
+      "name": "Chronomètres natation",
+      "slug": "chronomtres-natation",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/chronomtres-natation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d79a",
+      "name": "Matériel pour la piscine",
+      "slug": "matriel-pour-la-piscine",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/matriel-pour-la-piscine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d865d3e8e72c23e7d79b",
+      "name": "Jeux de piscine",
+      "slug": "jeux-de-piscine",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement Gymnastique indispensable",
+      "url": "https://www.casalsport.com/fr/cas/jeux-de-piscine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d61ed3e8e72c23e7d6a9",
+      "name": "Ballons GR",
+      "slug": "ballons-gr",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Engins de GR - Gymnastique Rythmique",
+      "url": "https://www.casalsport.com/fr/cas/ballons-gr",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d61ed3e8e72c23e7d6aa",
+      "name": "Massues GR",
+      "slug": "massues-gr",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Engins de GR - Gymnastique Rythmique",
+      "url": "https://www.casalsport.com/fr/cas/massues-gr",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d61ed3e8e72c23e7d6ab",
+      "name": "Cerceaux GR",
+      "slug": "cerceaux-gr",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Engins de GR - Gymnastique Rythmique",
+      "url": "https://www.casalsport.com/fr/cas/cerceaux-gr",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d61ed3e8e72c23e7d6ac",
+      "name": "Rubans GR",
+      "slug": "rubans-gr",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Engins de GR - Gymnastique Rythmique",
+      "url": "https://www.casalsport.com/fr/cas/rubans-gr",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d61ed3e8e72c23e7d6ad",
+      "name": "Cordes GR",
+      "slug": "cordes-gr",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Engins de GR - Gymnastique Rythmique",
+      "url": "https://www.casalsport.com/fr/cas/cordes-gr",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d631d3e8e72c23e7d6b1",
+      "name": "Matériel Jonglerie",
+      "slug": "matriel-jonglerie",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Cirque et Jonglage",
+      "url": "https://www.casalsport.com/fr/cas/matriel-jonglerie",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d631d3e8e72c23e7d6b2",
+      "name": "Matériel de cirque",
+      "slug": "matriel-de-cirque",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Cirque et Jonglage",
+      "url": "https://www.casalsport.com/fr/cas/matriel-de-cirque",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d631d3e8e72c23e7d6b3",
+      "name": "Matériel d'Equilibre Cirque",
+      "slug": "matriel-dequilibre-cirque",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Cirque et Jonglage",
+      "url": "https://www.casalsport.com/fr/cas/matriel-dequilibre-cirque",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d631d3e8e72c23e7d6b4",
+      "name": "Kits découverte Arts du Cirque",
+      "slug": "kits-dcouverte-arts-du-cirque",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Cirque et Jonglage",
+      "url": "https://www.casalsport.com/fr/cas/kits-dcouverte-arts-du-cirque",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d646d3e8e72c23e7d6b8",
+      "name": "Barres de Danse",
+      "slug": "barres-de-danse",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement salle de Danse",
+      "url": "https://www.casalsport.com/fr/cas/barres-de-danse",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d647d3e8e72c23e7d6b9",
+      "name": "Miroirs de Danse",
+      "slug": "miroirs-de-danse",
+      "parentCategory": "Gymnastique",
+      "parentSubcategory": "Equipement salle de Danse",
+      "url": "https://www.casalsport.com/fr/cas/miroirs-de-danse",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d675d3e8e72c23e7d6be",
+      "name": "Appareils de musculation",
+      "slug": "appareils-de-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de musculation",
+      "url": "https://www.casalsport.com/fr/cas/appareils-de-musculation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d675d3e8e72c23e7d6bf",
+      "name": "Bancs de Musculation, appareils abdominaux",
+      "slug": "bancs-de-musculation-appareils-abdominaux",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de musculation",
+      "url": "https://www.casalsport.com/fr/cas/bancs-de-musculation-appareils-abdominaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d675d3e8e72c23e7d6c0",
+      "name": "Rack Cross Training",
+      "slug": "rack-cross-training",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de musculation",
+      "url": "https://www.casalsport.com/fr/cas/rack-cross-training",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d675d3e8e72c23e7d6c1",
+      "name": "Entretien, Accessoires appareils de Musculation",
+      "slug": "entretien-accessoires-appareils-de-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de musculation",
+      "url": "https://www.casalsport.com/fr/cas/entretien-accessoires-appareils-de-musculation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d68bd3e8e72c23e7d6c5",
+      "name": "Haltères Musculation et Fitness",
+      "slug": "haltres-musculation-et-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Haltères, Barres, Disques, Poids",
+      "url": "https://www.casalsport.com/fr/cas/haltres-musculation-et-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d68bd3e8e72c23e7d6c6",
+      "name": "Poids Musculation et Fitness",
+      "slug": "poids-musculation-et-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Haltères, Barres, Disques, Poids",
+      "url": "https://www.casalsport.com/fr/cas/poids-musculation-et-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d68bd3e8e72c23e7d6c7",
+      "name": "Barres Musculation et Fitness",
+      "slug": "barres-musculation-et-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Haltères, Barres, Disques, Poids",
+      "url": "https://www.casalsport.com/fr/cas/barres-musculation-et-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6cb",
+      "name": "Kettlebell",
+      "slug": "kettlebell",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/kettlebell",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6cc",
+      "name": "Tapis de sol pour le Fitness",
+      "slug": "tapis-de-sol-pour-le-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/tapis-de-sol-pour-le-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6cd",
+      "name": "Cordes à sauter",
+      "slug": "cordes-sauter",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/cordes-sauter",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6ce",
+      "name": "Steps",
+      "slug": "steps",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/steps",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6cf",
+      "name": "Elastiques et Sangles de Musculation et Fitness",
+      "slug": "elastiques-et-sangles-de-musculation-et-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/elastiques-et-sangles-de-musculation-et-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6d0",
+      "name": "Swiss ball",
+      "slug": "swiss-ball",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/swiss-ball",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6d1",
+      "name": "Médecine balls et Sacs lestés",
+      "slug": "mdecine-balls-et-sacs-lests",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/mdecine-balls-et-sacs-lests",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69dd3e8e72c23e7d6d2",
+      "name": "Battle rope",
+      "slug": "battle-rope",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/battle-rope",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69ed3e8e72c23e7d6d3",
+      "name": "Appareils abdominaux",
+      "slug": "appareils-abdominaux",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/appareils-abdominaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69ed3e8e72c23e7d6d4",
+      "name": "Supports pompes",
+      "slug": "supports-pompes",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/supports-pompes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d69ed3e8e72c23e7d6d5",
+      "name": "Bracelets lestés de Fitness",
+      "slug": "bracelets-lests-de-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Equipement de Fitness et Cross training",
+      "url": "https://www.casalsport.com/fr/cas/bracelets-lests-de-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6afd3e8e72c23e7d6d9",
+      "name": "Rameurs",
+      "slug": "rameurs",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Appareils Fitness et Cardio training",
+      "url": "https://www.casalsport.com/fr/cas/rameurs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6afd3e8e72c23e7d6da",
+      "name": "Tapis de course",
+      "slug": "tapis-de-course",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Appareils Fitness et Cardio training",
+      "url": "https://www.casalsport.com/fr/cas/tapis-de-course",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6afd3e8e72c23e7d6db",
+      "name": "Vélos d'appartement",
+      "slug": "vlos-dappartement",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Appareils Fitness et Cardio training",
+      "url": "https://www.casalsport.com/fr/cas/vlos-dappartement",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6afd3e8e72c23e7d6dc",
+      "name": "Vélos de spinning",
+      "slug": "vlos-de-spinning",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Appareils Fitness et Cardio training",
+      "url": "https://www.casalsport.com/fr/cas/vlos-de-spinning",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6afd3e8e72c23e7d6dd",
+      "name": "Vélos elliptiques, Steppers",
+      "slug": "vlos-elliptiques-steppers",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Appareils Fitness et Cardio training",
+      "url": "https://www.casalsport.com/fr/cas/vlos-elliptiques-steppers",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6bbd3e8e72c23e7d6e1",
+      "name": "Tapis de Yoga",
+      "slug": "tapis-de-yoga",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Pilate, Gym douce et Yoga",
+      "url": "https://www.casalsport.com/fr/cas/tapis-de-yoga",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6bbd3e8e72c23e7d6e2",
+      "name": "Matériel, accessoires Yoga",
+      "slug": "matriel-accessoires-yoga",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Pilate, Gym douce et Yoga",
+      "url": "https://www.casalsport.com/fr/cas/matriel-accessoires-yoga",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ccd3e8e72c23e7d6e6",
+      "name": "Dalles de sol Musculation",
+      "slug": "dalles-de-sol-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Aménagement salle de Musculation",
+      "url": "https://www.casalsport.com/fr/cas/dalles-de-sol-musculation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ccd3e8e72c23e7d6e7",
+      "name": "Rangements Musculation et Fitness",
+      "slug": "rangements-musculation-et-fitness",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Aménagement salle de Musculation",
+      "url": "https://www.casalsport.com/fr/cas/rangements-musculation-et-fitness",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6cdd3e8e72c23e7d6e8",
+      "name": "Tableaux, Fiches, Posters Musculation",
+      "slug": "tableaux-fiches-posters-musculation",
+      "parentCategory": "Musculation et Fitness",
+      "parentSubcategory": "Aménagement salle de Musculation",
+      "url": "https://www.casalsport.com/fr/cas/tableaux-fiches-posters-musculation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6ec",
+      "name": "Jeux de société et de construction",
+      "slug": "jeux-de-socit-et-de-construction",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/jeux-de-socit-et-de-construction",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6ed",
+      "name": "Jeux géants",
+      "slug": "jeux-gants",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/jeux-gants",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6ee",
+      "name": "Jeux éducatifs",
+      "slug": "jeux-ducatifs",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/jeux-ducatifs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6ef",
+      "name": "Tapis de jeux",
+      "slug": "tapis-de-jeux",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/tapis-de-jeux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6f0",
+      "name": "Baby Foot",
+      "slug": "baby-foot",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/baby-foot",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ddd3e8e72c23e7d6f1",
+      "name": "Jeux d'adresse",
+      "slug": "jeux-dadresse",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Jeux de société, Babyfoot",
+      "url": "https://www.casalsport.com/fr/cas/jeux-dadresse",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ead3e8e72c23e7d6f5",
+      "name": "Casques vélo enfant",
+      "slug": "casques-vlo-enfant",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Draisiennes, Tricycles, Vélos",
+      "url": "https://www.casalsport.com/fr/cas/casques-vlo-enfant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ead3e8e72c23e7d6f6",
+      "name": "Vélos d'apprentissage",
+      "slug": "vlos-dapprentissage",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Draisiennes, Tricycles, Vélos",
+      "url": "https://www.casalsport.com/fr/cas/vlos-dapprentissage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ead3e8e72c23e7d6f7",
+      "name": "Tricycles",
+      "slug": "tricycles",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Draisiennes, Tricycles, Vélos",
+      "url": "https://www.casalsport.com/fr/cas/tricycles",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ead3e8e72c23e7d6f8",
+      "name": "Draisiennes",
+      "slug": "draisiennes",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Draisiennes, Tricycles, Vélos",
+      "url": "https://www.casalsport.com/fr/cas/draisiennes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6ead3e8e72c23e7d6f9",
+      "name": "Trottinettes et Patinettes",
+      "slug": "trottinettes-et-patinettes",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Draisiennes, Tricycles, Vélos",
+      "url": "https://www.casalsport.com/fr/cas/trottinettes-et-patinettes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6f9d3e8e72c23e7d6fd",
+      "name": "Tapis, Matelas scolaires",
+      "slug": "tapis-matelas-scolaires",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités gymniques",
+      "url": "https://www.casalsport.com/fr/cas/tapis-matelas-scolaires",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6f9d3e8e72c23e7d6fe",
+      "name": "Bancs suédois",
+      "slug": "bancs-sudois",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités gymniques",
+      "url": "https://www.casalsport.com/fr/cas/bancs-sudois",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6f9d3e8e72c23e7d6ff",
+      "name": "Modules, Parcours mousse enfant",
+      "slug": "modules-parcours-mousse-enfant",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités gymniques",
+      "url": "https://www.casalsport.com/fr/cas/modules-parcours-mousse-enfant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6f9d3e8e72c23e7d700",
+      "name": "Modules motricité en bois",
+      "slug": "modules-motricit-en-bois",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités gymniques",
+      "url": "https://www.casalsport.com/fr/cas/modules-motricit-en-bois",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d6f9d3e8e72c23e7d701",
+      "name": "Piscines à balles",
+      "slug": "piscines-balles",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités gymniques",
+      "url": "https://www.casalsport.com/fr/cas/piscines-balles",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d70cd3e8e72c23e7d705",
+      "name": "Parcours de motricité",
+      "slug": "parcours-de-motricit",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Equilibre, Coordination",
+      "url": "https://www.casalsport.com/fr/cas/parcours-de-motricit",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d70cd3e8e72c23e7d706",
+      "name": "Matériel d’équilibre et de coordination enfant",
+      "slug": "matriel-dquilibre-et-de-coordination-enfant",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Equilibre, Coordination",
+      "url": "https://www.casalsport.com/fr/cas/matriel-dquilibre-et-de-coordination-enfant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d70cd3e8e72c23e7d707",
+      "name": "Tunnels de jeu",
+      "slug": "tunnels-de-jeu",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Equilibre, Coordination",
+      "url": "https://www.casalsport.com/fr/cas/tunnels-de-jeu",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d71ed3e8e72c23e7d70b",
+      "name": "Balles de manipulation",
+      "slug": "balles-de-manipulation",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités collectives",
+      "url": "https://www.casalsport.com/fr/cas/balles-de-manipulation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d71ed3e8e72c23e7d70c",
+      "name": "Balles en mousse",
+      "slug": "balles-en-mousse",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités collectives",
+      "url": "https://www.casalsport.com/fr/cas/balles-en-mousse",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d72ed3e8e72c23e7d710",
+      "name": "Instruments de musique, jouets musicaux",
+      "slug": "instruments-de-musique-jouets-musicaux",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités artistiques",
+      "url": "https://www.casalsport.com/fr/cas/instruments-de-musique-jouets-musicaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d72ed3e8e72c23e7d711",
+      "name": "Expression corporelle",
+      "slug": "expression-corporelle",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Activités artistiques",
+      "url": "https://www.casalsport.com/fr/cas/expression-corporelle",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d73ad3e8e72c23e7d715",
+      "name": "Bac & coffre de rangement enfant​",
+      "slug": "bac-coffre-de-rangement-enfant",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Mobilier enfant collectivités",
+      "url": "https://www.casalsport.com/fr/cas/bac-coffre-de-rangement-enfant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d73ad3e8e72c23e7d716",
+      "name": "Canapé, fauteuil, tabouret, pouf en mousse pour enfant & maternelle",
+      "slug": "canap-fauteuil-tabouret-pouf-en-mousse-pour-enfant-maternelle",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Mobilier enfant collectivités",
+      "url": "https://www.casalsport.com/fr/cas/canap-fauteuil-tabouret-pouf-en-mousse-pour-enfant-maternelle",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d73ad3e8e72c23e7d717",
+      "name": "Couchage : Lit, couchette pour sieste maternelle​",
+      "slug": "couchage-lit-couchette-pour-sieste-maternelle",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Mobilier enfant collectivités",
+      "url": "https://www.casalsport.com/fr/cas/couchage-lit-couchette-pour-sieste-maternelle",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d73ad3e8e72c23e7d718",
+      "name": "Meuble de rangement enfant et scolaire",
+      "slug": "meuble-de-rangement-enfant-et-scolaire",
+      "parentCategory": "Éveil, Jeux et Motricité",
+      "parentSubcategory": "Mobilier enfant collectivités",
+      "url": "https://www.casalsport.com/fr/cas/meuble-de-rangement-enfant-et-scolaire",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d71c",
+      "name": "Cordes, Cordelettes Escalade",
+      "slug": "cordes-cordelettes-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/cordes-cordelettes-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d71d",
+      "name": "Murs, Prises et Accessoires salle d’Escalade",
+      "slug": "murs-prises-et-accessoires-salle-descalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/murs-prises-et-accessoires-salle-descalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d71e",
+      "name": "Longes, Sangles Escalade",
+      "slug": "longes-sangles-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/longes-sangles-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d71f",
+      "name": "Baudriers, Harnais Escalade",
+      "slug": "baudriers-harnais-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/baudriers-harnais-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d720",
+      "name": "Mousquetons Escalade",
+      "slug": "mousquetons-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/mousquetons-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d721",
+      "name": "Descendeurs, Assureurs Escalade",
+      "slug": "descendeurs-assureurs-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/descendeurs-assureurs-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d722",
+      "name": "Dégaines Escalade",
+      "slug": "dgaines-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/dgaines-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d723",
+      "name": "Matelas et Crash Pad Escalade",
+      "slug": "matelas-et-crash-pad-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/matelas-et-crash-pad-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d724",
+      "name": "Sacs à pof, magnésies Escalade",
+      "slug": "sacs-pof-magnsies-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/sacs-pof-magnsies-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76ad3e8e72c23e7d725",
+      "name": "Casques Escalade",
+      "slug": "casques-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/casques-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d726",
+      "name": "Gants Escalade",
+      "slug": "gants-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/gants-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d727",
+      "name": "Matériel Via Ferrata, Canyoning",
+      "slug": "matriel-via-ferrata-canyoning",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/matriel-via-ferrata-canyoning",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d728",
+      "name": "Accessoires Escalade, Entretien",
+      "slug": "accessoires-escalade-entretien",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-escalade-entretien",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d729",
+      "name": "Chaussons Escalade",
+      "slug": "chaussons-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/chaussons-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d72a",
+      "name": "Sacs Escalade",
+      "slug": "sacs-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/sacs-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d76bd3e8e72c23e7d72b",
+      "name": "Ouverture de voie Escalade",
+      "slug": "ouverture-de-voie-escalade",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Escalade",
+      "url": "https://www.casalsport.com/fr/cas/ouverture-de-voie-escalade",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77bd3e8e72c23e7d72f",
+      "name": "Skateboards, rollers",
+      "slug": "skateboards-rollers",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/skateboards-rollers",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77bd3e8e72c23e7d730",
+      "name": "Vélos",
+      "slug": "vlos",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/vlos",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77bd3e8e72c23e7d731",
+      "name": "Casques Vélo",
+      "slug": "casques-vlo",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/casques-vlo",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77cd3e8e72c23e7d732",
+      "name": "Protections Rollers et Skateboards",
+      "slug": "protections-rollers-et-skateboards",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/protections-rollers-et-skateboards",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77cd3e8e72c23e7d733",
+      "name": "Accessoires vélos",
+      "slug": "accessoires-vlos",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-vlos",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77cd3e8e72c23e7d734",
+      "name": "Modules Skatepark",
+      "slug": "modules-skatepark",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/modules-skatepark",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d77cd3e8e72c23e7d735",
+      "name": "Râteliers de vélos",
+      "slug": "rteliers-de-vlos",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Mobilité Urbaine",
+      "url": "https://www.casalsport.com/fr/cas/rteliers-de-vlos",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d739",
+      "name": "Bouteilles isothermes, Gourdes Randonnée",
+      "slug": "bouteilles-isothermes-gourdes-randonne",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/bouteilles-isothermes-gourdes-randonne",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d73a",
+      "name": "Sacs à dos Randonnée",
+      "slug": "sacs-dos-randonne",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/sacs-dos-randonne",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d73b",
+      "name": "Bâtons de Marche et Randonnée",
+      "slug": "btons-de-marche-et-randonne",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/btons-de-marche-et-randonne",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d73c",
+      "name": "Couchage Camping",
+      "slug": "couchage-camping",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/couchage-camping",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d73d",
+      "name": "Eclairage pour Randonnée",
+      "slug": "eclairage-pour-randonne",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/eclairage-pour-randonne",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d786d3e8e72c23e7d73e",
+      "name": "Tentes, Accessoires Camping",
+      "slug": "tentes-accessoires-camping",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Randonnée et Camping",
+      "url": "https://www.casalsport.com/fr/cas/tentes-accessoires-camping",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d790d3e8e72c23e7d742",
+      "name": "Carabines laser",
+      "slug": "carabines-laser",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Archerie et Tir",
+      "url": "https://www.casalsport.com/fr/cas/carabines-laser",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d791d3e8e72c23e7d743",
+      "name": "Arcs",
+      "slug": "arcs",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Archerie et Tir",
+      "url": "https://www.casalsport.com/fr/cas/arcs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d791d3e8e72c23e7d744",
+      "name": "Flèches Arc",
+      "slug": "flches-arc",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Archerie et Tir",
+      "url": "https://www.casalsport.com/fr/cas/flches-arc",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d791d3e8e72c23e7d745",
+      "name": "Cibles, Chevalets, Accessoires Archerie",
+      "slug": "cibles-chevalets-accessoires-archerie",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Archerie et Tir",
+      "url": "https://www.casalsport.com/fr/cas/cibles-chevalets-accessoires-archerie",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d791d3e8e72c23e7d746",
+      "name": "Protections Archer",
+      "slug": "protections-archer",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Archerie et Tir",
+      "url": "https://www.casalsport.com/fr/cas/protections-archer",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d79dd3e8e72c23e7d74a",
+      "name": "Pétanque, Boccia",
+      "slug": "ptanque-boccia",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Précision",
+      "url": "https://www.casalsport.com/fr/cas/ptanque-boccia",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d79dd3e8e72c23e7d74b",
+      "name": "Golf",
+      "slug": "golf",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Précision",
+      "url": "https://www.casalsport.com/fr/cas/golf",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d79dd3e8e72c23e7d74c",
+      "name": "Equipement Mini-Golf",
+      "slug": "equipement-mini-golf",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Précision",
+      "url": "https://www.casalsport.com/fr/cas/equipement-mini-golf",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d79dd3e8e72c23e7d74d",
+      "name": "Jeux de fléchettes",
+      "slug": "jeux-de-flchettes",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Précision",
+      "url": "https://www.casalsport.com/fr/cas/jeux-de-flchettes",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d79dd3e8e72c23e7d74e",
+      "name": "Billards",
+      "slug": "billards",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Précision",
+      "url": "https://www.casalsport.com/fr/cas/billards",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7b2d3e8e72c23e7d752",
+      "name": "Boomerang, Cerf volant",
+      "slug": "boomerang-cerf-volant",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports de Vent",
+      "url": "https://www.casalsport.com/fr/cas/boomerang-cerf-volant",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7bdd3e8e72c23e7d756",
+      "name": "Slackline",
+      "slug": "slackline",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Loisirs et Jeux",
+      "url": "https://www.casalsport.com/fr/cas/slackline",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7bdd3e8e72c23e7d757",
+      "name": "Jeux de plein air",
+      "slug": "jeux-de-plein-air",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Loisirs et Jeux",
+      "url": "https://www.casalsport.com/fr/cas/jeux-de-plein-air",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7cbd3e8e72c23e7d75b",
+      "name": "Luges",
+      "slug": "luges",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Sports d'hiver",
+      "url": "https://www.casalsport.com/fr/cas/luges",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7dcd3e8e72c23e7d75f",
+      "name": "Boussoles",
+      "slug": "boussoles",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Course d'orientation",
+      "url": "https://www.casalsport.com/fr/cas/boussoles",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7dcd3e8e72c23e7d760",
+      "name": "Balises Course d'orientation",
+      "slug": "balises-course-dorientation",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Course d'orientation",
+      "url": "https://www.casalsport.com/fr/cas/balises-course-dorientation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7dcd3e8e72c23e7d761",
+      "name": "Pinces Course d'orientation",
+      "slug": "pinces-course-dorientation",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Course d'orientation",
+      "url": "https://www.casalsport.com/fr/cas/pinces-course-dorientation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7dcd3e8e72c23e7d762",
+      "name": "Mallettes et coffrets d’orientation",
+      "slug": "mallettes-et-coffrets-dorientation",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Course d'orientation",
+      "url": "https://www.casalsport.com/fr/cas/mallettes-et-coffrets-dorientation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7dcd3e8e72c23e7d763",
+      "name": "Accessoires Course d'orientation",
+      "slug": "accessoires-course-dorientation",
+      "parentCategory": "Sports outdoor",
+      "parentSubcategory": "Course d'orientation",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-course-dorientation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f4d3e8e72c23e7d767",
+      "name": "Rings, salle de Boxe et Accessoires",
+      "slug": "rings-salle-de-boxe-et-accessoires",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/rings-salle-de-boxe-et-accessoires",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f4d3e8e72c23e7d768",
+      "name": "Equipements, accessoires de Dojo",
+      "slug": "equipements-accessoires-de-dojo",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/equipements-accessoires-de-dojo",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f4d3e8e72c23e7d769",
+      "name": "Plateaux de Lutte",
+      "slug": "plateaux-de-lutte",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/plateaux-de-lutte",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f4d3e8e72c23e7d76a",
+      "name": "Cages MMA",
+      "slug": "cages-mma",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/cages-mma",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f5d3e8e72c23e7d76b",
+      "name": "Sacs de frappe, Potences",
+      "slug": "sacs-de-frappe-potences",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/sacs-de-frappe-potences",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d7f5d3e8e72c23e7d76c",
+      "name": "Poires et Ballons de frappe",
+      "slug": "poires-et-ballons-de-frappe",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Aménagement Dojo, Salles de Boxe, Rings",
+      "url": "https://www.casalsport.com/fr/cas/poires-et-ballons-de-frappe",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d809d3e8e72c23e7d770",
+      "name": "Kimonos Arts Martiaux",
+      "slug": "kimonos-arts-martiaux",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/kimonos-arts-martiaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d809d3e8e72c23e7d771",
+      "name": "Ceintures, Zoories Arts Martiaux",
+      "slug": "ceintures-zoories-arts-martiaux",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/ceintures-zoories-arts-martiaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d809d3e8e72c23e7d772",
+      "name": "Chambara",
+      "slug": "chambara",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/chambara",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d815d3e8e72c23e7d776",
+      "name": "Gants de Boxe, MMA",
+      "slug": "gants-de-boxe-mma",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Boxe, MMA",
+      "url": "https://www.casalsport.com/fr/cas/gants-de-boxe-mma",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d815d3e8e72c23e7d777",
+      "name": "Mitaines et sous gants de Boxe",
+      "slug": "mitaines-et-sous-gants-de-boxe",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Boxe, MMA",
+      "url": "https://www.casalsport.com/fr/cas/mitaines-et-sous-gants-de-boxe",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d815d3e8e72c23e7d778",
+      "name": "Accessoires entraineur Boxe",
+      "slug": "accessoires-entraineur-boxe",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Boxe, MMA",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-entraineur-boxe",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d82ad3e8e72c23e7d77c",
+      "name": "Coquilles de Protection",
+      "slug": "coquilles-de-protection",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Protections Boxe et Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/coquilles-de-protection",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d82ad3e8e72c23e7d77d",
+      "name": "Protège-dents",
+      "slug": "protge-dents",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Protections Boxe et Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/protge-dents",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d82ad3e8e72c23e7d77e",
+      "name": "Plastrons et Protection poitrine",
+      "slug": "plastrons-et-protection-poitrine",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Protections Boxe et Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/plastrons-et-protection-poitrine",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d82ad3e8e72c23e7d77f",
+      "name": "Protèges jambes et bras Boxe",
+      "slug": "protges-jambes-et-bras-boxe",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Protections Boxe et Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/protges-jambes-et-bras-boxe",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d82ad3e8e72c23e7d780",
+      "name": "Casques de Boxe",
+      "slug": "casques-de-boxe",
+      "parentCategory": "Sports de Combat",
+      "parentSubcategory": "Protections Boxe et Arts Martiaux",
+      "url": "https://www.casalsport.com/fr/cas/casques-de-boxe",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d83ad3e8e72c23e7d784",
+      "name": "Palmes Snorkeling",
+      "slug": "palmes-snorkeling",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Snorkeling",
+      "url": "https://www.casalsport.com/fr/cas/palmes-snorkeling",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d83bd3e8e72c23e7d785",
+      "name": "Plongée, Masque, Tuba",
+      "slug": "plonge-masque-tuba",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Snorkeling",
+      "url": "https://www.casalsport.com/fr/cas/plonge-masque-tuba",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d849d3e8e72c23e7d789",
+      "name": "Bonnet de bain, pince-nez et bouchon d'oreilles",
+      "slug": "bonnet-de-bain-pince-nez-et-bouchon-doreilles",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Natation",
+      "url": "https://www.casalsport.com/fr/cas/bonnet-de-bain-pince-nez-et-bouchon-doreilles",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d849d3e8e72c23e7d78a",
+      "name": "Lunettes, masques, tubas Natation",
+      "slug": "lunettes-masques-tubas-natation",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Natation",
+      "url": "https://www.casalsport.com/fr/cas/lunettes-masques-tubas-natation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d849d3e8e72c23e7d78b",
+      "name": "Palmes, Plaquettes Natation",
+      "slug": "palmes-plaquettes-natation",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Natation",
+      "url": "https://www.casalsport.com/fr/cas/palmes-plaquettes-natation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d849d3e8e72c23e7d78c",
+      "name": "Matériel Entraînement Natation",
+      "slug": "matriel-entranement-natation",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Natation",
+      "url": "https://www.casalsport.com/fr/cas/matriel-entranement-natation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d849d3e8e72c23e7d78d",
+      "name": "Mannequins sauvetage",
+      "slug": "mannequins-sauvetage",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Natation",
+      "url": "https://www.casalsport.com/fr/cas/mannequins-sauvetage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d857d3e8e72c23e7d791",
+      "name": "Matériel Aquagym",
+      "slug": "matriel-aquagym",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Aquagym et Aquabike",
+      "url": "https://www.casalsport.com/fr/cas/matriel-aquagym",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d858d3e8e72c23e7d792",
+      "name": "Aquabike, vélos elliptiques, tapis de course aquatique",
+      "slug": "aquabike-vlos-elliptiques-tapis-de-course-aquatique",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Aquagym et Aquabike",
+      "url": "https://www.casalsport.com/fr/cas/aquabike-vlos-elliptiques-tapis-de-course-aquatique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d874d3e8e72c23e7d79f",
+      "name": "Canoë, Kayak, Paddle",
+      "slug": "cano-kayak-paddle",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Pagaies",
+      "url": "https://www.casalsport.com/fr/cas/cano-kayak-paddle",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d874d3e8e72c23e7d7a0",
+      "name": "Gilets de sauvetage",
+      "slug": "gilets-de-sauvetage",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Pagaies",
+      "url": "https://www.casalsport.com/fr/cas/gilets-de-sauvetage",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d874d3e8e72c23e7d7a1",
+      "name": "Sacs étanches, Bidons",
+      "slug": "sacs-tanches-bidons",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Pagaies",
+      "url": "https://www.casalsport.com/fr/cas/sacs-tanches-bidons",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d874d3e8e72c23e7d7a2",
+      "name": "Accessoires Sports de Pagaies",
+      "slug": "accessoires-sports-de-pagaies",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Pagaies",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-sports-de-pagaies",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d885d3e8e72c23e7d7a6",
+      "name": "Gilets de sauvetage pour Voiliers",
+      "slug": "gilets-de-sauvetage-pour-voiliers",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Voile",
+      "url": "https://www.casalsport.com/fr/cas/gilets-de-sauvetage-pour-voiliers",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d885d3e8e72c23e7d7a7",
+      "name": "Équipements pour écoles de Voile",
+      "slug": "quipements-pour-coles-de-voile",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Voile",
+      "url": "https://www.casalsport.com/fr/cas/quipements-pour-coles-de-voile",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d892d3e8e72c23e7d7ab",
+      "name": "Kitesurf",
+      "slug": "kitesurf",
+      "parentCategory": "Sports Aquatiques",
+      "parentSubcategory": "Sports de Glisse",
+      "url": "https://www.casalsport.com/fr/cas/kitesurf",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8a4d3e8e72c23e7d7af",
+      "name": "Eclairage Marche Nordique",
+      "slug": "eclairage-marche-nordique",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Marche Nordique",
+      "url": "https://www.casalsport.com/fr/cas/eclairage-marche-nordique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8a4d3e8e72c23e7d7b0",
+      "name": "Bâtons Marche Nordique",
+      "slug": "btons-marche-nordique",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Marche Nordique",
+      "url": "https://www.casalsport.com/fr/cas/btons-marche-nordique",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8bad3e8e72c23e7d7b4",
+      "name": "Haies Athlétisme",
+      "slug": "haies-athltisme",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Matériel de Course à pied",
+      "url": "https://www.casalsport.com/fr/cas/haies-athltisme",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8bad3e8e72c23e7d7b5",
+      "name": "Starting Blocks Athlétisme",
+      "slug": "starting-blocks-athltisme",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Matériel de Course à pied",
+      "url": "https://www.casalsport.com/fr/cas/starting-blocks-athltisme",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8bad3e8e72c23e7d7b6",
+      "name": "Accessoires Course Athlétisme",
+      "slug": "accessoires-course-athltisme",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Matériel de Course à pied",
+      "url": "https://www.casalsport.com/fr/cas/accessoires-course-athltisme",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8c9d3e8e72c23e7d7ba",
+      "name": "Javelots Athlétisme et Vortex",
+      "slug": "javelots-athltisme-et-vortex",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Lancer Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/javelots-athltisme-et-vortex",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8c9d3e8e72c23e7d7bb",
+      "name": "Engins de lancer",
+      "slug": "engins-de-lancer",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Lancer Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/engins-de-lancer",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8cad3e8e72c23e7d7bc",
+      "name": "Filets, Cages marteaux et disques",
+      "slug": "filets-cages-marteaux-et-disques",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Lancer Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/filets-cages-marteaux-et-disques",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8d6d3e8e72c23e7d7c0",
+      "name": "Saut en Hauteur",
+      "slug": "saut-en-hauteur",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Saut Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/saut-en-hauteur",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8d6d3e8e72c23e7d7c1",
+      "name": "Saut en Longueur",
+      "slug": "saut-en-longueur",
+      "parentCategory": "Athlétisme",
+      "parentSubcategory": "Saut Athlétisme",
+      "url": "https://www.casalsport.com/fr/cas/saut-en-longueur",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8e5d3e8e72c23e7d7c5",
+      "name": "Sacs à dos",
+      "slug": "sacs-dos",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/sacs-dos",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8e5d3e8e72c23e7d7c6",
+      "name": "Sacs de sport",
+      "slug": "sacs-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/sacs-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7ca",
+      "name": "Gilets de sécurité",
+      "slug": "gilets-de-scurit",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/gilets-de-scurit",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7cb",
+      "name": "Bonnets, gants et tours de cou",
+      "slug": "bonnets-gants-et-tours-de-cou",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/bonnets-gants-et-tours-de-cou",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7cc",
+      "name": "Casquettes et bandeaux",
+      "slug": "casquettes-et-bandeaux",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/casquettes-et-bandeaux",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7cd",
+      "name": "Sandales, claquettes de sport",
+      "slug": "sandales-claquettes-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/sandales-claquettes-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7ce",
+      "name": "Serviettes de sport, peignoirs",
+      "slug": "serviettes-de-sport-peignoirs",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/serviettes-de-sport-peignoirs",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d8f5d3e8e72c23e7d7cf",
+      "name": "Protèges tibias",
+      "slug": "protges-tibias",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Accessoires textile",
+      "url": "https://www.casalsport.com/fr/cas/protges-tibias",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d3",
+      "name": "Débardeurs de sport",
+      "slug": "dbardeurs-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/dbardeurs-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d4",
+      "name": "Polos de sport",
+      "slug": "polos-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/polos-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d5",
+      "name": "Vestes de sport",
+      "slug": "vestes-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/vestes-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d6",
+      "name": "Cuissards de sport",
+      "slug": "cuissards-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/cuissards-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d7",
+      "name": "Sweats de sport",
+      "slug": "sweats-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/sweats-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d902d3e8e72c23e7d7d8",
+      "name": "Shooting shirts Basket",
+      "slug": "shooting-shirts-basket",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/shooting-shirts-basket",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7d9",
+      "name": "Survêtements",
+      "slug": "survtements",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/survtements",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7da",
+      "name": "Ensembles de sport maillots shorts",
+      "slug": "ensembles-de-sport-maillots-shorts",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/ensembles-de-sport-maillots-shorts",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7db",
+      "name": "Pantalons, Collants de sport",
+      "slug": "pantalons-collants-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/pantalons-collants-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7dc",
+      "name": "Jupes de sport",
+      "slug": "jupes-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/jupes-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7dd",
+      "name": "Tee-shirts de sport",
+      "slug": "tee-shirts-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/tee-shirts-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7de",
+      "name": "Maillots de sport",
+      "slug": "maillots-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/maillots-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7df",
+      "name": "Sous-vêtements sport",
+      "slug": "sous-vtements-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/sous-vtements-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7e0",
+      "name": "Maillots de bain, combinaisons de natation",
+      "slug": "maillots-de-bain-combinaisons-de-natation",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/maillots-de-bain-combinaisons-de-natation",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7e1",
+      "name": "Manchons de sport",
+      "slug": "manchons-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/manchons-de-sport",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7e2",
+      "name": "Sous maillot",
+      "slug": "sous-maillot",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/sous-maillot",
+      "type": "subsubcategory"
+    },
+    {
+      "id": "68a5d903d3e8e72c23e7d7e3",
+      "name": "Shorts de sport",
+      "slug": "shorts-de-sport",
+      "parentCategory": "Textile et bagagerie",
+      "parentSubcategory": "Textile Multisport",
+      "url": "https://www.casalsport.com/fr/cas/shorts-de-sport",
+      "type": "subsubcategory"
+    }
+  ],
+  "flat_urls": [
+    "https://www.casalsport.com/fr/cas/amenagement-interieur-gymnases-locaux",
+    "https://www.casalsport.com/fr/cas/amenagement-exterieur-stades-aires-jeux",
+    "https://www.casalsport.com/fr/cas/equipement-multisport",
+    "https://www.casalsport.com/fr/cas/sports-collectifs",
+    "https://www.casalsport.com/fr/cas/sports-raquettes",
+    "https://www.casalsport.com/fr/cas/gymnastique",
+    "https://www.casalsport.com/fr/cas/musculation-fitness",
+    "https://www.casalsport.com/fr/cas/eveil-jeux-motricite",
+    "https://www.casalsport.com/fr/cas/sports-outdoor",
+    "https://www.casalsport.com/fr/cas/sports-combat",
+    "https://www.casalsport.com/fr/cas/sports-aquatiques",
+    "https://www.casalsport.com/fr/cas/athletisme",
+    "https://www.casalsport.com/fr/cas/textile-bagagerie",
+    "https://www.casalsport.com/fr/cas/marquage-sol-gymnases",
+    "https://www.casalsport.com/fr/cas/mobilier-vestiaires-gymnases",
+    "https://www.casalsport.com/fr/cas/affichage",
+    "https://www.casalsport.com/fr/cas/mobilier-bureau",
+    "https://www.casalsport.com/fr/cas/electromenager-restauration",
+    "https://www.casalsport.com/fr/cas/revetements-sols-interieurs",
+    "https://www.casalsport.com/fr/cas/mats-cordes-grimper",
+    "https://www.casalsport.com/fr/cas/espaliers",
+    "https://www.casalsport.com/fr/cas/gradins-tribunes",
+    "https://www.casalsport.com/fr/cas/bancs-gymnase",
+    "https://www.casalsport.com/fr/cas/tables-marque",
+    "https://www.casalsport.com/fr/cas/separations-salle",
+    "https://www.casalsport.com/fr/cas/tableaux-affichage-scores",
+    "https://www.casalsport.com/fr/cas/fixations-equipements-hauteur",
+    "https://www.casalsport.com/fr/cas/fontaines-eau",
+    "https://www.casalsport.com/fr/cas/revetements-sol-exterieur",
+    "https://www.casalsport.com/fr/cas/buts-multisports",
+    "https://www.casalsport.com/fr/cas/abris-touche",
+    "https://www.casalsport.com/fr/cas/pare-ballons",
+    "https://www.casalsport.com/fr/cas/acces-infrastructures",
+    "https://www.casalsport.com/fr/cas/brosses-chaussures",
+    "https://www.casalsport.com/fr/cas/tracage-delimitation-terrain",
+    "https://www.casalsport.com/fr/cas/aires-jeux-exterieur",
+    "https://www.casalsport.com/fr/cas/parcours-sportif",
+    "https://www.casalsport.com/fr/cas/stations-fitness-musculation-exterieures",
+    "https://www.casalsport.com/fr/cas/mobilier-urbain",
+    "https://www.casalsport.com/fr/cas/proprete-espaces-exterieurs",
+    "https://www.casalsport.com/fr/cas/materiel-entrainement-sportif",
+    "https://www.casalsport.com/fr/cas/arbitrage-coaching",
+    "https://www.casalsport.com/fr/cas/recompenses-sportives",
+    "https://www.casalsport.com/fr/cas/transport-rangement",
+    "https://www.casalsport.com/fr/cas/gonflage-entretien-ballons",
+    "https://www.casalsport.com/fr/cas/pharmacie-sportif",
+    "https://www.casalsport.com/fr/cas/organisation-evenement-sportif",
+    "https://www.casalsport.com/fr/cas/epi-hygiene-amenagement",
+    "https://www.casalsport.com/fr/cas/piles",
+    "https://www.casalsport.com/fr/cas/football",
+    "https://www.casalsport.com/fr/cas/basketball",
+    "https://www.casalsport.com/fr/cas/handball",
+    "https://www.casalsport.com/fr/cas/volleyball",
+    "https://www.casalsport.com/fr/cas/rugby",
+    "https://www.casalsport.com/fr/cas/baseball-softball",
+    "https://www.casalsport.com/fr/cas/sports-crosse",
+    "https://www.casalsport.com/fr/cas/ultimate",
+    "https://www.casalsport.com/fr/cas/autres-sports-collectifs",
+    "https://www.casalsport.com/fr/cas/mini-buts",
+    "https://www.casalsport.com/fr/cas/badminton",
+    "https://www.casalsport.com/fr/cas/tennis-table",
+    "https://www.casalsport.com/fr/cas/tennis",
+    "https://www.casalsport.com/fr/cas/padel",
+    "https://www.casalsport.com/fr/cas/squash",
+    "https://www.casalsport.com/fr/cas/speed-badminton",
+    "https://www.casalsport.com/fr/cas/pelote-basque",
+    "https://www.casalsport.com/fr/cas/peteca-indiaka",
+    "https://www.casalsport.com/fr/cas/pickleball",
+    "https://www.casalsport.com/fr/cas/agres-gymnastique",
+    "https://www.casalsport.com/fr/cas/equipement-gymnastique-indispensable",
+    "https://www.casalsport.com/fr/cas/engins-gr-gymnastique-rythmique",
+    "https://www.casalsport.com/fr/cas/cirque-jonglage",
+    "https://www.casalsport.com/fr/cas/equipement-salle-danse",
+    "https://www.casalsport.com/fr/cas/gymnastique-urbaine-parkour",
+    "https://www.casalsport.com/fr/cas/equipement-musculation",
+    "https://www.casalsport.com/fr/cas/halteres-barres-disques-poids",
+    "https://www.casalsport.com/fr/cas/equipement-fitness-cross-training",
+    "https://www.casalsport.com/fr/cas/appareils-fitness-cardio-training",
+    "https://www.casalsport.com/fr/cas/pilate-gym-douce-yoga",
+    "https://www.casalsport.com/fr/cas/amenagement-salle-musculation",
+    "https://www.casalsport.com/fr/cas/protections-musculation",
+    "https://www.casalsport.com/fr/cas/jeux-societe-babyfoot",
+    "https://www.casalsport.com/fr/cas/draisiennes-tricycles-velos",
+    "https://www.casalsport.com/fr/cas/apprentissage-scolaire-securite-routiere",
+    "https://www.casalsport.com/fr/cas/activites-gymniques",
+    "https://www.casalsport.com/fr/cas/equilibre-coordination",
+    "https://www.casalsport.com/fr/cas/activites-collectives",
+    "https://www.casalsport.com/fr/cas/jeux-cooperatifs",
+    "https://www.casalsport.com/fr/cas/activites-artistiques",
+    "https://www.casalsport.com/fr/cas/mobilier-enfant-collectivites",
+    "https://www.casalsport.com/fr/cas/escalade",
+    "https://www.casalsport.com/fr/cas/mobilite-urbaine",
+    "https://www.casalsport.com/fr/cas/randonnee-camping",
+    "https://www.casalsport.com/fr/cas/archerie-tir",
+    "https://www.casalsport.com/fr/cas/sports-precision",
+    "https://www.casalsport.com/fr/cas/sports-vent",
+    "https://www.casalsport.com/fr/cas/loisirs-jeux",
+    "https://www.casalsport.com/fr/cas/sports-hiver",
+    "https://www.casalsport.com/fr/cas/course-orientation",
+    "https://www.casalsport.com/fr/cas/amenagement-dojo-salles-boxe-rings",
+    "https://www.casalsport.com/fr/cas/arts-martiaux",
+    "https://www.casalsport.com/fr/cas/boxe-mma",
+    "https://www.casalsport.com/fr/cas/self-defense-krav-maga",
+    "https://www.casalsport.com/fr/cas/escrime",
+    "https://www.casalsport.com/fr/cas/protections-boxe-arts-martiaux",
+    "https://www.casalsport.com/fr/cas/snorkeling",
+    "https://www.casalsport.com/fr/cas/bebes-nageurs",
+    "https://www.casalsport.com/fr/cas/natation",
+    "https://www.casalsport.com/fr/cas/aquagym-aquabike",
+    "https://www.casalsport.com/fr/cas/equipement-piscine-jeux-aquatiques",
+    "https://www.casalsport.com/fr/cas/water-polo",
+    "https://www.casalsport.com/fr/cas/sports-pagaies",
+    "https://www.casalsport.com/fr/cas/sports-voile",
+    "https://www.casalsport.com/fr/cas/sports-glisse",
+    "https://www.casalsport.com/fr/cas/marche-nordique",
+    "https://www.casalsport.com/fr/cas/materiel-course-pied",
+    "https://www.casalsport.com/fr/cas/lancer-athletisme",
+    "https://www.casalsport.com/fr/cas/saut-athletisme",
+    "https://www.casalsport.com/fr/cas/instruments-mesure-athletisme",
+    "https://www.casalsport.com/fr/cas/kits-initiation-athletisme",
+    "https://www.casalsport.com/fr/cas/vetements-tenues-gardien-multisports",
+    "https://www.casalsport.com/fr/cas/tenue-arbitre",
+    "https://www.casalsport.com/fr/cas/tee-shirts-personnalisables",
+    "https://www.casalsport.com/fr/cas/bagagerie",
+    "https://www.casalsport.com/fr/cas/accessoires-textile",
+    "https://www.casalsport.com/fr/cas/textile-multisport",
+    "https://www.casalsport.com/fr/cas/bancs-vestiaire-et-patres",
+    "https://www.casalsport.com/fr/cas/vestiaires-multicases",
+    "https://www.casalsport.com/fr/cas/casiers-vestiaires-et-vestiaires-sport",
+    "https://www.casalsport.com/fr/cas/accessoires-vestiaires",
+    "https://www.casalsport.com/fr/cas/cadenas-antivols",
+    "https://www.casalsport.com/fr/cas/vitrines-daffichage",
+    "https://www.casalsport.com/fr/cas/panneaux-lige-tableaux-blancs",
+    "https://www.casalsport.com/fr/cas/accessoires-tableaux-vitrines",
+    "https://www.casalsport.com/fr/cas/bureaux",
+    "https://www.casalsport.com/fr/cas/tables-de-runion",
+    "https://www.casalsport.com/fr/cas/chaises-de-bureau",
+    "https://www.casalsport.com/fr/cas/coffre-fort-lampes-porte-manteaux-horloges",
+    "https://www.casalsport.com/fr/cas/armoires-caissons-de-bureau",
+    "https://www.casalsport.com/fr/cas/mobilier-de-restauration",
+    "https://www.casalsport.com/fr/cas/arts-de-la-table",
+    "https://www.casalsport.com/fr/cas/dlimitation-de-terrain",
+    "https://www.casalsport.com/fr/cas/peintures-pour-gazon",
+    "https://www.casalsport.com/fr/cas/traceuses-pour-gazon",
+    "https://www.casalsport.com/fr/cas/matriel-de-street-workout",
+    "https://www.casalsport.com/fr/cas/matriel-pour-parcours-du-combattant",
+    "https://www.casalsport.com/fr/cas/matriel-pour-parcours-de-ninja",
+    "https://www.casalsport.com/fr/cas/parcours-de-sant",
+    "https://www.casalsport.com/fr/cas/bancs-dextrieur",
+    "https://www.casalsport.com/fr/cas/tables-extrieures",
+    "https://www.casalsport.com/fr/cas/abris-fumeurs",
+    "https://www.casalsport.com/fr/cas/cendriers-extrieurs",
+    "https://www.casalsport.com/fr/cas/poubelles-extrieures",
+    "https://www.casalsport.com/fr/cas/bennes-conteneurs",
+    "https://www.casalsport.com/fr/cas/poubelles-de-tri-extrieures",
+    "https://www.casalsport.com/fr/cas/accessoires-poubelles-extrieures",
+    "https://www.casalsport.com/fr/cas/plots-et-cnes-de-sport",
+    "https://www.casalsport.com/fr/cas/cerceaux-et-jalons",
+    "https://www.casalsport.com/fr/cas/chasubles-de-sport",
+    "https://www.casalsport.com/fr/cas/echelles-de-rythme",
+    "https://www.casalsport.com/fr/cas/mini-haies-entrainement",
+    "https://www.casalsport.com/fr/cas/marquage-au-sol-entrainement",
+    "https://www.casalsport.com/fr/cas/kits-dapprentissage",
+    "https://www.casalsport.com/fr/cas/harnais-de-rsistance",
+    "https://www.casalsport.com/fr/cas/sifflets",
+    "https://www.casalsport.com/fr/cas/chronomtres-de-sport",
+    "https://www.casalsport.com/fr/cas/montres-cardio-cardiofrquencemtres",
+    "https://www.casalsport.com/fr/cas/tableaux-tactiques-portes-licences",
+    "https://www.casalsport.com/fr/cas/brassards-de-sport",
+    "https://www.casalsport.com/fr/cas/sacoches-et-porte-documents",
+    "https://www.casalsport.com/fr/cas/cartons-plaquettes-et-accessoires-arbitre",
+    "https://www.casalsport.com/fr/cas/gourdes-bouteilles-isothermes",
+    "https://www.casalsport.com/fr/cas/balances-pse-personnes",
+    "https://www.casalsport.com/fr/cas/coupes-et-trophes-sportifs",
+    "https://www.casalsport.com/fr/cas/mdailles-rubans",
+    "https://www.casalsport.com/fr/cas/podiums-de-sport",
+    "https://www.casalsport.com/fr/cas/sacs-et-filets-ballons",
+    "https://www.casalsport.com/fr/cas/chariots-de-manutention",
+    "https://www.casalsport.com/fr/cas/coffres-et-malles-de-rangement",
+    "https://www.casalsport.com/fr/cas/rayonnage",
+    "https://www.casalsport.com/fr/cas/bacs-de-rangement",
+    "https://www.casalsport.com/fr/cas/roll-conteneurs",
+    "https://www.casalsport.com/fr/cas/armoires-de-rangement",
+    "https://www.casalsport.com/fr/cas/rangement-sportif",
+    "https://www.casalsport.com/fr/cas/accessoires-gonflage-ballons",
+    "https://www.casalsport.com/fr/cas/pompes-ballons",
+    "https://www.casalsport.com/fr/cas/compresseurs-ballons",
+    "https://www.casalsport.com/fr/cas/matriel-de-premiers-secours",
+    "https://www.casalsport.com/fr/cas/rcupration",
+    "https://www.casalsport.com/fr/cas/rducation-et-stimulation",
+    "https://www.casalsport.com/fr/cas/dfibrillateurs-et-accessoires",
+    "https://www.casalsport.com/fr/cas/projecteurs-jeux-de-lumire",
+    "https://www.casalsport.com/fr/cas/sonos-portables-et-accessoires",
+    "https://www.casalsport.com/fr/cas/stands-et-tentes-de-rception",
+    "https://www.casalsport.com/fr/cas/quincaillerie",
+    "https://www.casalsport.com/fr/cas/tables-pliantes-et-bancs",
+    "https://www.casalsport.com/fr/cas/rubalise-et-cnes-de-signalisation",
+    "https://www.casalsport.com/fr/cas/marquage-au-sol-intrieur-extrieur",
+    "https://www.casalsport.com/fr/cas/porte-voix-et-talkies-walkies",
+    "https://www.casalsport.com/fr/cas/vaisselle-jetable",
+    "https://www.casalsport.com/fr/cas/gestion-des-dchets",
+    "https://www.casalsport.com/fr/cas/produits-dentretien-et-de-nettoyage",
+    "https://www.casalsport.com/fr/cas/equipement-dhygine-et-de-protection",
+    "https://www.casalsport.com/fr/cas/ballons-de-football",
+    "https://www.casalsport.com/fr/cas/ballons-futsal",
+    "https://www.casalsport.com/fr/cas/matriel-buts-football",
+    "https://www.casalsport.com/fr/cas/filets-de-buts-de-foot",
+    "https://www.casalsport.com/fr/cas/accessoires-dentrainement-de-football",
+    "https://www.casalsport.com/fr/cas/gants-de-gardien-de-foot",
+    "https://www.casalsport.com/fr/cas/mini-buts-de-foot",
+    "https://www.casalsport.com/fr/cas/beach-soccer",
+    "https://www.casalsport.com/fr/cas/ballons-de-basket",
+    "https://www.casalsport.com/fr/cas/accessoires-entrainement-de-basket",
+    "https://www.casalsport.com/fr/cas/filets-cercles-de-basket-pour-paniers",
+    "https://www.casalsport.com/fr/cas/panneaux-de-basket",
+    "https://www.casalsport.com/fr/cas/accessoires-terrain-de-basket",
+    "https://www.casalsport.com/fr/cas/kits-pdagogiques-basket",
+    "https://www.casalsport.com/fr/cas/paniers-de-basket-buts-de-basket",
+    "https://www.casalsport.com/fr/cas/ballons-de-handball",
+    "https://www.casalsport.com/fr/cas/buts-de-handball",
+    "https://www.casalsport.com/fr/cas/filets-de-but-de-hand",
+    "https://www.casalsport.com/fr/cas/accessoires-dentrainement-de-handball",
+    "https://www.casalsport.com/fr/cas/kits-pdagogiques-hand",
+    "https://www.casalsport.com/fr/cas/sandball",
+    "https://www.casalsport.com/fr/cas/ballons-de-volley",
+    "https://www.casalsport.com/fr/cas/poteaux-accessoires-terrains-de-volley",
+    "https://www.casalsport.com/fr/cas/filets-de-volley",
+    "https://www.casalsport.com/fr/cas/beach-volley",
+    "https://www.casalsport.com/fr/cas/ballons-de-rugby",
+    "https://www.casalsport.com/fr/cas/poteaux-de-rugby-buts-de-rugby",
+    "https://www.casalsport.com/fr/cas/equipement-dentrainement-rugby",
+    "https://www.casalsport.com/fr/cas/boucliers-de-rugby-sacs-de-plaquage",
+    "https://www.casalsport.com/fr/cas/accessoires-terrain-de-rugby",
+    "https://www.casalsport.com/fr/cas/battes-de-baseball",
+    "https://www.casalsport.com/fr/cas/balles-de-baseball-et-softball",
+    "https://www.casalsport.com/fr/cas/gants-protections-accessoires-de-baseball",
+    "https://www.casalsport.com/fr/cas/kits-initiation-baseball",
+    "https://www.casalsport.com/fr/cas/matriel-floorball-unihockey-lacrosse",
+    "https://www.casalsport.com/fr/cas/matriel-de-hockey-et-street-hockey",
+    "https://www.casalsport.com/fr/cas/tchoukball",
+    "https://www.casalsport.com/fr/cas/kin-ball",
+    "https://www.casalsport.com/fr/cas/spikeball",
+    "https://www.casalsport.com/fr/cas/football-amricain",
+    "https://www.casalsport.com/fr/cas/bumball",
+    "https://www.casalsport.com/fr/cas/foobaskill",
+    "https://www.casalsport.com/fr/cas/cardiogoal-et-poull-ball",
+    "https://www.casalsport.com/fr/cas/raquettes-de-badminton",
+    "https://www.casalsport.com/fr/cas/volants-badminton",
+    "https://www.casalsport.com/fr/cas/poteaux-de-badminton",
+    "https://www.casalsport.com/fr/cas/filets-badminton",
+    "https://www.casalsport.com/fr/cas/kits-badminton",
+    "https://www.casalsport.com/fr/cas/accessoires-badminton",
+    "https://www.casalsport.com/fr/cas/rangement-badminton",
+    "https://www.casalsport.com/fr/cas/raquettes-de-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/balles-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/tables-de-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/filets-poteaux-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/kits-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/robots-accessoires-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/rangement-tennis-de-table",
+    "https://www.casalsport.com/fr/cas/raquette-de-tennis",
+    "https://www.casalsport.com/fr/cas/balles-de-tennis",
+    "https://www.casalsport.com/fr/cas/filets-de-tennis",
+    "https://www.casalsport.com/fr/cas/poteaux-de-tennis",
+    "https://www.casalsport.com/fr/cas/equipement-terrain-de-tennis",
+    "https://www.casalsport.com/fr/cas/accessoires-de-tennis",
+    "https://www.casalsport.com/fr/cas/barres-de-gymnastique",
+    "https://www.casalsport.com/fr/cas/poutres-gymnastique",
+    "https://www.casalsport.com/fr/cas/plinths-tables-de-saut-gymnastique",
+    "https://www.casalsport.com/fr/cas/trampolines-gymnastique",
+    "https://www.casalsport.com/fr/cas/maniques-de-gymnastique",
+    "https://www.casalsport.com/fr/cas/tremplins-gymnastique",
+    "https://www.casalsport.com/fr/cas/magnsie-gymnastique",
+    "https://www.casalsport.com/fr/cas/tapis-de-gymnastique",
+    "https://www.casalsport.com/fr/cas/matelas-gymnastique",
+    "https://www.casalsport.com/fr/cas/pistes-chemins-de-gymnastique",
+    "https://www.casalsport.com/fr/cas/modules-de-gymnastique",
+    "https://www.casalsport.com/fr/cas/praticables-aires-volution-gymnastique",
+    "https://www.casalsport.com/fr/cas/matriel-gymnastique-gonflable",
+    "https://www.casalsport.com/fr/cas/rangement-piscine",
+    "https://www.casalsport.com/fr/cas/caillebotis-piscine",
+    "https://www.casalsport.com/fr/cas/vestiaires-piscine",
+    "https://www.casalsport.com/fr/cas/chronomtres-natation",
+    "https://www.casalsport.com/fr/cas/matriel-pour-la-piscine",
+    "https://www.casalsport.com/fr/cas/jeux-de-piscine",
+    "https://www.casalsport.com/fr/cas/ballons-gr",
+    "https://www.casalsport.com/fr/cas/massues-gr",
+    "https://www.casalsport.com/fr/cas/cerceaux-gr",
+    "https://www.casalsport.com/fr/cas/rubans-gr",
+    "https://www.casalsport.com/fr/cas/cordes-gr",
+    "https://www.casalsport.com/fr/cas/matriel-jonglerie",
+    "https://www.casalsport.com/fr/cas/matriel-de-cirque",
+    "https://www.casalsport.com/fr/cas/matriel-dequilibre-cirque",
+    "https://www.casalsport.com/fr/cas/kits-dcouverte-arts-du-cirque",
+    "https://www.casalsport.com/fr/cas/barres-de-danse",
+    "https://www.casalsport.com/fr/cas/miroirs-de-danse",
+    "https://www.casalsport.com/fr/cas/appareils-de-musculation",
+    "https://www.casalsport.com/fr/cas/bancs-de-musculation-appareils-abdominaux",
+    "https://www.casalsport.com/fr/cas/rack-cross-training",
+    "https://www.casalsport.com/fr/cas/entretien-accessoires-appareils-de-musculation",
+    "https://www.casalsport.com/fr/cas/haltres-musculation-et-fitness",
+    "https://www.casalsport.com/fr/cas/poids-musculation-et-fitness",
+    "https://www.casalsport.com/fr/cas/barres-musculation-et-fitness",
+    "https://www.casalsport.com/fr/cas/kettlebell",
+    "https://www.casalsport.com/fr/cas/tapis-de-sol-pour-le-fitness",
+    "https://www.casalsport.com/fr/cas/cordes-sauter",
+    "https://www.casalsport.com/fr/cas/steps",
+    "https://www.casalsport.com/fr/cas/elastiques-et-sangles-de-musculation-et-fitness",
+    "https://www.casalsport.com/fr/cas/swiss-ball",
+    "https://www.casalsport.com/fr/cas/mdecine-balls-et-sacs-lests",
+    "https://www.casalsport.com/fr/cas/battle-rope",
+    "https://www.casalsport.com/fr/cas/appareils-abdominaux",
+    "https://www.casalsport.com/fr/cas/supports-pompes",
+    "https://www.casalsport.com/fr/cas/bracelets-lests-de-fitness",
+    "https://www.casalsport.com/fr/cas/rameurs",
+    "https://www.casalsport.com/fr/cas/tapis-de-course",
+    "https://www.casalsport.com/fr/cas/vlos-dappartement",
+    "https://www.casalsport.com/fr/cas/vlos-de-spinning",
+    "https://www.casalsport.com/fr/cas/vlos-elliptiques-steppers",
+    "https://www.casalsport.com/fr/cas/tapis-de-yoga",
+    "https://www.casalsport.com/fr/cas/matriel-accessoires-yoga",
+    "https://www.casalsport.com/fr/cas/dalles-de-sol-musculation",
+    "https://www.casalsport.com/fr/cas/rangements-musculation-et-fitness",
+    "https://www.casalsport.com/fr/cas/tableaux-fiches-posters-musculation",
+    "https://www.casalsport.com/fr/cas/jeux-de-socit-et-de-construction",
+    "https://www.casalsport.com/fr/cas/jeux-gants",
+    "https://www.casalsport.com/fr/cas/jeux-ducatifs",
+    "https://www.casalsport.com/fr/cas/tapis-de-jeux",
+    "https://www.casalsport.com/fr/cas/baby-foot",
+    "https://www.casalsport.com/fr/cas/jeux-dadresse",
+    "https://www.casalsport.com/fr/cas/casques-vlo-enfant",
+    "https://www.casalsport.com/fr/cas/vlos-dapprentissage",
+    "https://www.casalsport.com/fr/cas/tricycles",
+    "https://www.casalsport.com/fr/cas/draisiennes",
+    "https://www.casalsport.com/fr/cas/trottinettes-et-patinettes",
+    "https://www.casalsport.com/fr/cas/tapis-matelas-scolaires",
+    "https://www.casalsport.com/fr/cas/bancs-sudois",
+    "https://www.casalsport.com/fr/cas/modules-parcours-mousse-enfant",
+    "https://www.casalsport.com/fr/cas/modules-motricit-en-bois",
+    "https://www.casalsport.com/fr/cas/piscines-balles",
+    "https://www.casalsport.com/fr/cas/parcours-de-motricit",
+    "https://www.casalsport.com/fr/cas/matriel-dquilibre-et-de-coordination-enfant",
+    "https://www.casalsport.com/fr/cas/tunnels-de-jeu",
+    "https://www.casalsport.com/fr/cas/balles-de-manipulation",
+    "https://www.casalsport.com/fr/cas/balles-en-mousse",
+    "https://www.casalsport.com/fr/cas/instruments-de-musique-jouets-musicaux",
+    "https://www.casalsport.com/fr/cas/expression-corporelle",
+    "https://www.casalsport.com/fr/cas/bac-coffre-de-rangement-enfant",
+    "https://www.casalsport.com/fr/cas/canap-fauteuil-tabouret-pouf-en-mousse-pour-enfant-maternelle",
+    "https://www.casalsport.com/fr/cas/couchage-lit-couchette-pour-sieste-maternelle",
+    "https://www.casalsport.com/fr/cas/meuble-de-rangement-enfant-et-scolaire",
+    "https://www.casalsport.com/fr/cas/cordes-cordelettes-escalade",
+    "https://www.casalsport.com/fr/cas/murs-prises-et-accessoires-salle-descalade",
+    "https://www.casalsport.com/fr/cas/longes-sangles-escalade",
+    "https://www.casalsport.com/fr/cas/baudriers-harnais-escalade",
+    "https://www.casalsport.com/fr/cas/mousquetons-escalade",
+    "https://www.casalsport.com/fr/cas/descendeurs-assureurs-escalade",
+    "https://www.casalsport.com/fr/cas/dgaines-escalade",
+    "https://www.casalsport.com/fr/cas/matelas-et-crash-pad-escalade",
+    "https://www.casalsport.com/fr/cas/sacs-pof-magnsies-escalade",
+    "https://www.casalsport.com/fr/cas/casques-escalade",
+    "https://www.casalsport.com/fr/cas/gants-escalade",
+    "https://www.casalsport.com/fr/cas/matriel-via-ferrata-canyoning",
+    "https://www.casalsport.com/fr/cas/accessoires-escalade-entretien",
+    "https://www.casalsport.com/fr/cas/chaussons-escalade",
+    "https://www.casalsport.com/fr/cas/sacs-escalade",
+    "https://www.casalsport.com/fr/cas/ouverture-de-voie-escalade",
+    "https://www.casalsport.com/fr/cas/skateboards-rollers",
+    "https://www.casalsport.com/fr/cas/vlos",
+    "https://www.casalsport.com/fr/cas/casques-vlo",
+    "https://www.casalsport.com/fr/cas/protections-rollers-et-skateboards",
+    "https://www.casalsport.com/fr/cas/accessoires-vlos",
+    "https://www.casalsport.com/fr/cas/modules-skatepark",
+    "https://www.casalsport.com/fr/cas/rteliers-de-vlos",
+    "https://www.casalsport.com/fr/cas/bouteilles-isothermes-gourdes-randonne",
+    "https://www.casalsport.com/fr/cas/sacs-dos-randonne",
+    "https://www.casalsport.com/fr/cas/btons-de-marche-et-randonne",
+    "https://www.casalsport.com/fr/cas/couchage-camping",
+    "https://www.casalsport.com/fr/cas/eclairage-pour-randonne",
+    "https://www.casalsport.com/fr/cas/tentes-accessoires-camping",
+    "https://www.casalsport.com/fr/cas/carabines-laser",
+    "https://www.casalsport.com/fr/cas/arcs",
+    "https://www.casalsport.com/fr/cas/flches-arc",
+    "https://www.casalsport.com/fr/cas/cibles-chevalets-accessoires-archerie",
+    "https://www.casalsport.com/fr/cas/protections-archer",
+    "https://www.casalsport.com/fr/cas/ptanque-boccia",
+    "https://www.casalsport.com/fr/cas/golf",
+    "https://www.casalsport.com/fr/cas/equipement-mini-golf",
+    "https://www.casalsport.com/fr/cas/jeux-de-flchettes",
+    "https://www.casalsport.com/fr/cas/billards",
+    "https://www.casalsport.com/fr/cas/boomerang-cerf-volant",
+    "https://www.casalsport.com/fr/cas/slackline",
+    "https://www.casalsport.com/fr/cas/jeux-de-plein-air",
+    "https://www.casalsport.com/fr/cas/luges",
+    "https://www.casalsport.com/fr/cas/boussoles",
+    "https://www.casalsport.com/fr/cas/balises-course-dorientation",
+    "https://www.casalsport.com/fr/cas/pinces-course-dorientation",
+    "https://www.casalsport.com/fr/cas/mallettes-et-coffrets-dorientation",
+    "https://www.casalsport.com/fr/cas/accessoires-course-dorientation",
+    "https://www.casalsport.com/fr/cas/rings-salle-de-boxe-et-accessoires",
+    "https://www.casalsport.com/fr/cas/equipements-accessoires-de-dojo",
+    "https://www.casalsport.com/fr/cas/plateaux-de-lutte",
+    "https://www.casalsport.com/fr/cas/cages-mma",
+    "https://www.casalsport.com/fr/cas/sacs-de-frappe-potences",
+    "https://www.casalsport.com/fr/cas/poires-et-ballons-de-frappe",
+    "https://www.casalsport.com/fr/cas/kimonos-arts-martiaux",
+    "https://www.casalsport.com/fr/cas/ceintures-zoories-arts-martiaux",
+    "https://www.casalsport.com/fr/cas/chambara",
+    "https://www.casalsport.com/fr/cas/gants-de-boxe-mma",
+    "https://www.casalsport.com/fr/cas/mitaines-et-sous-gants-de-boxe",
+    "https://www.casalsport.com/fr/cas/accessoires-entraineur-boxe",
+    "https://www.casalsport.com/fr/cas/coquilles-de-protection",
+    "https://www.casalsport.com/fr/cas/protge-dents",
+    "https://www.casalsport.com/fr/cas/plastrons-et-protection-poitrine",
+    "https://www.casalsport.com/fr/cas/protges-jambes-et-bras-boxe",
+    "https://www.casalsport.com/fr/cas/casques-de-boxe",
+    "https://www.casalsport.com/fr/cas/palmes-snorkeling",
+    "https://www.casalsport.com/fr/cas/plonge-masque-tuba",
+    "https://www.casalsport.com/fr/cas/bonnet-de-bain-pince-nez-et-bouchon-doreilles",
+    "https://www.casalsport.com/fr/cas/lunettes-masques-tubas-natation",
+    "https://www.casalsport.com/fr/cas/palmes-plaquettes-natation",
+    "https://www.casalsport.com/fr/cas/matriel-entranement-natation",
+    "https://www.casalsport.com/fr/cas/mannequins-sauvetage",
+    "https://www.casalsport.com/fr/cas/matriel-aquagym",
+    "https://www.casalsport.com/fr/cas/aquabike-vlos-elliptiques-tapis-de-course-aquatique",
+    "https://www.casalsport.com/fr/cas/cano-kayak-paddle",
+    "https://www.casalsport.com/fr/cas/gilets-de-sauvetage",
+    "https://www.casalsport.com/fr/cas/sacs-tanches-bidons",
+    "https://www.casalsport.com/fr/cas/accessoires-sports-de-pagaies",
+    "https://www.casalsport.com/fr/cas/gilets-de-sauvetage-pour-voiliers",
+    "https://www.casalsport.com/fr/cas/quipements-pour-coles-de-voile",
+    "https://www.casalsport.com/fr/cas/kitesurf",
+    "https://www.casalsport.com/fr/cas/eclairage-marche-nordique",
+    "https://www.casalsport.com/fr/cas/btons-marche-nordique",
+    "https://www.casalsport.com/fr/cas/haies-athltisme",
+    "https://www.casalsport.com/fr/cas/starting-blocks-athltisme",
+    "https://www.casalsport.com/fr/cas/accessoires-course-athltisme",
+    "https://www.casalsport.com/fr/cas/javelots-athltisme-et-vortex",
+    "https://www.casalsport.com/fr/cas/engins-de-lancer",
+    "https://www.casalsport.com/fr/cas/filets-cages-marteaux-et-disques",
+    "https://www.casalsport.com/fr/cas/saut-en-hauteur",
+    "https://www.casalsport.com/fr/cas/saut-en-longueur",
+    "https://www.casalsport.com/fr/cas/sacs-dos",
+    "https://www.casalsport.com/fr/cas/sacs-de-sport",
+    "https://www.casalsport.com/fr/cas/gilets-de-scurit",
+    "https://www.casalsport.com/fr/cas/bonnets-gants-et-tours-de-cou",
+    "https://www.casalsport.com/fr/cas/casquettes-et-bandeaux",
+    "https://www.casalsport.com/fr/cas/sandales-claquettes-de-sport",
+    "https://www.casalsport.com/fr/cas/serviettes-de-sport-peignoirs",
+    "https://www.casalsport.com/fr/cas/protges-tibias",
+    "https://www.casalsport.com/fr/cas/dbardeurs-de-sport",
+    "https://www.casalsport.com/fr/cas/polos-de-sport",
+    "https://www.casalsport.com/fr/cas/vestes-de-sport",
+    "https://www.casalsport.com/fr/cas/cuissards-de-sport",
+    "https://www.casalsport.com/fr/cas/sweats-de-sport",
+    "https://www.casalsport.com/fr/cas/shooting-shirts-basket",
+    "https://www.casalsport.com/fr/cas/survtements",
+    "https://www.casalsport.com/fr/cas/ensembles-de-sport-maillots-shorts",
+    "https://www.casalsport.com/fr/cas/pantalons-collants-de-sport",
+    "https://www.casalsport.com/fr/cas/jupes-de-sport",
+    "https://www.casalsport.com/fr/cas/tee-shirts-de-sport",
+    "https://www.casalsport.com/fr/cas/maillots-de-sport",
+    "https://www.casalsport.com/fr/cas/sous-vtements-sport",
+    "https://www.casalsport.com/fr/cas/maillots-de-bain-combinaisons-de-natation",
+    "https://www.casalsport.com/fr/cas/manchons-de-sport",
+    "https://www.casalsport.com/fr/cas/sous-maillot",
+    "https://www.casalsport.com/fr/cas/shorts-de-sport"
+  ]
+}

@@ -1,0 +1,130 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Category {
+  id              String         @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  slug            String         @unique
+  description     String?
+  imageUrl        String?        // Image de fond pour le hero de la page catégorie
+  categoryText    String?        // Texte en markdown spécifique à la catégorie
+  order           Int            @default(0)
+  isActive        Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  
+  // Relations
+  subCategories   SubCategory[]
+  
+  @@map("categories")
+}
+
+model SubCategory {
+  id              String         @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  slug            String         @unique
+  description     String?
+  order           Int            @default(0)
+  isActive        Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  
+  // Relations
+  categoryId      String         @db.ObjectId
+  category        Category       @relation(fields: [categoryId], references: [id])
+  subSubCategories SubSubCategory[]
+  products        Product[]      // Produits qui appartiennent directement à cette sous-catégorie
+  
+  @@map("subcategories")
+}
+
+model SubSubCategory {
+  id              String         @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  slug            String         @unique
+  description     String?
+  order           Int            @default(0)
+  isCategorySelected Boolean     @default(false) // Pour la section "Notre Sélection"
+  isActive        Boolean        @default(true)
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+  
+  // Relations
+  subCategoryId   String         @db.ObjectId
+  subCategory     SubCategory    @relation(fields: [subCategoryId], references: [id])
+  products        Product[]
+  
+  @@map("subsubcategories")
+}
+
+model Product {
+  id              String      @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  description     String?
+  shortDescription String?
+  sku             String      @unique
+  price           Float
+  salePrice       Float?
+  costPrice       Float?
+  stock           Int         @default(0)
+  minStock        Int         @default(0)
+  weight          Float?
+  dimensions      String?
+  images          String[]
+  isProductCategorySelected Boolean @default(false) // Pour la section maillage des produits
+  isActive        Boolean     @default(true)
+  isFeatured     Boolean     @default(false)
+  isOnSale       Boolean     @default(false)
+  tags            String[]
+  specifications  Json?
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  
+  // Relations - Un produit peut appartenir soit à une sous-catégorie soit à une sous-sous-catégorie
+  subCategoryId   String?     @db.ObjectId
+  subCategory     SubCategory? @relation(fields: [subCategoryId], references: [id])
+  subSubCategoryId String?    @db.ObjectId
+  subSubCategory   SubSubCategory? @relation(fields: [subSubCategoryId], references: [id])
+  reviews          Review[]
+  
+  @@map("products")
+}
+
+model Review {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  rating      Int      // Note de 1 à 5
+  comment     String?
+  authorName  String?
+  isVerified  Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  // Relations
+  productId   String   @db.ObjectId
+  product     Product  @relation(fields: [productId], references: [id])
+  
+  @@map("reviews")
+}
+
+model Admin {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  username  String   @unique
+  email     String   @unique
+  password  String
+  role      String   @default("admin")
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

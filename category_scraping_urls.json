@@ -1,0 +1,97 @@
+{
+  "generated_at": "2025-08-20T17:36:47.585Z",
+  "total_categories": 13,
+  "scraping_urls": [
+    {
+      "id": "68a4f388e952766349291f95",
+      "name": "Aménagement intérieur - Gymnases et locaux",
+      "slug": "amenagement-interieur-gymnases-locaux",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-interieur-gymnases-et-locaux",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f389e952766349291fa5",
+      "name": "Aménagement extérieur - Stades, Aires de jeux",
+      "slug": "amenagement-exterieur-stades-aires-jeux",
+      "url": "https://www.casalsport.com/fr/cas/amenagement-exterieur-stades-aires-de-jeux",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ae952766349291fb2",
+      "name": "Equipement multisport",
+      "slug": "equipement-multisport",
+      "url": "https://www.casalsport.com/fr/cas/equipement-multisport",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ae952766349291fbc",
+      "name": "Sports collectifs",
+      "slug": "sports-collectifs",
+      "url": "https://www.casalsport.com/fr/cas/sports-collectifs",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ae952766349291fc7",
+      "name": "Sports de raquettes",
+      "slug": "sports-raquettes",
+      "url": "https://www.casalsport.com/fr/cas/sports-de-raquettes",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38be952766349291fd1",
+      "name": "Gymnastique",
+      "slug": "gymnastique",
+      "url": "https://www.casalsport.com/fr/cas/gymnastique",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38be952766349291fd8",
+      "name": "Musculation et Fitness",
+      "slug": "musculation-fitness",
+      "url": "https://www.casalsport.com/fr/cas/musculation-et-fitness",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ce952766349291fe0",
+      "name": "Éveil, Jeux et Motricité",
+      "slug": "eveil-jeux-motricite",
+      "url": "https://www.casalsport.com/fr/cas/eveil-jeux-et-motricite",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ce952766349291fea",
+      "name": "Sports outdoor",
+      "slug": "sports-outdoor",
+      "url": "https://www.casalsport.com/fr/cas/sports-outdoor",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38ce952766349291ff4",
+      "name": "Sports de Combat",
+      "slug": "sports-combat",
+      "url": "https://www.casalsport.com/fr/cas/sports-de-combat",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38de952766349291ffb",
+      "name": "Sports Aquatiques",
+      "slug": "sports-aquatiques",
+      "url": "https://www.casalsport.com/fr/cas/sports-aquatiques",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38de952766349292005",
+      "name": "Athlétisme",
+      "slug": "athletisme",
+      "url": "https://www.casalsport.com/fr/cas/athletisme",
+      "status": "pending"
+    },
+    {
+      "id": "68a4f38de95276634929200c",
+      "name": "Textile et bagagerie",
+      "slug": "textile-bagagerie",
+      "url": "https://www.casalsport.com/fr/cas/textile-et-bagagerie",
+      "status": "pending"
+    }
+  ]
+}
