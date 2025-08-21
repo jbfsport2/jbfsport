@@ -120,41 +120,65 @@ const testimonials: Testimonial[] = [
 
 export default function TestimonialsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isTablet, setIsTablet] = useState(false);
+
+  // Nombre de témoignages visibles selon la taille d'écran
+  const getTestimonialsPerView = () => {
+    if (isMobile) return 1;
+    if (isTablet) return 3;
+    return 5;
+  };
+
+  const testimonialsPerView = getTestimonialsPerView();
+
+  useEffect(() => {
+    const checkScreenSize = () => {
+      const width = window.innerWidth;
+      setIsMobile(width < 640);
+      setIsTablet(width >= 640 && width < 1024);
+    };
+    
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => {
-        const nextIndex = prevIndex + 5;
+        const nextIndex = prevIndex + testimonialsPerView;
         return nextIndex >= testimonials.length ? 0 : nextIndex;
       });
     }, 6000); // Change toutes les 6 secondes
 
     return () => clearInterval(interval);
-  }, []);
+  }, [testimonialsPerView]);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => {
-      const nextIndex = prevIndex + 5;
+      const nextIndex = prevIndex + testimonialsPerView;
       return nextIndex >= testimonials.length ? 0 : nextIndex;
     });
   };
 
   const prevSlide = () => {
     setCurrentIndex((prevIndex) => {
-      const prevIndexNew = prevIndex - 5;
-      return prevIndexNew < 0 ? Math.max(0, testimonials.length - 5) : prevIndexNew;
+      const prevIndexNew = prevIndex - testimonialsPerView;
+      return prevIndexNew < 0 ? Math.max(0, testimonials.length - testimonialsPerView) : prevIndexNew;
     });
   };
 
   const goToSlide = (index: number) => {
-    setCurrentIndex(index * 5);
+    setCurrentIndex(index * testimonialsPerView);
   };
 
   const renderStars = () => {
     return Array.from({ length: 5 }, (_, i) => (
       <svg 
         key={i} 
-        className="w-5 h-5 text-yellow-400 fill-current" 
+        className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 fill-current" 
         viewBox="0 0 20 20"
       >
         <path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/>
@@ -162,49 +186,49 @@ export default function TestimonialsCarousel() {
     ));
   };
 
-  const visibleTestimonials = testimonials.slice(currentIndex, currentIndex + 5);
+  const visibleTestimonials = testimonials.slice(currentIndex, currentIndex + testimonialsPerView);
 
   return (
     <div className="relative max-w-full mx-auto">
-      {/* Boutons de navigation */}
+      {/* Boutons de navigation - Masqués sur mobile */}
       <button
         onClick={prevSlide}
-        className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
+        className="hidden sm:block absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-800 p-2 sm:p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
       >
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
         </svg>
       </button>
 
       <button
         onClick={nextSlide}
-        className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-800 p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
+        className="hidden sm:block absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/90 hover:bg-white text-gray-800 p-2 sm:p-3 rounded-full shadow-lg transition-all duration-200 hover:scale-110"
       >
-        <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
         </svg>
       </button>
 
-      {/* Carousel avec 5 cartes visibles */}
-      <div className="flex gap-6 overflow-hidden px-20">
+      {/* Carousel avec témoignages visibles selon la taille d'écran */}
+      <div className="flex gap-3 sm:gap-4 lg:gap-6 overflow-hidden px-4 sm:px-8 lg:px-20">
         {visibleTestimonials.map((testimonial) => (
-          <div key={testimonial.id} className="flex-shrink-0 w-80 bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow duration-300">
-            <div className="flex justify-center mb-4">
+          <div key={testimonial.id} className="flex-shrink-0 w-full sm:w-72 lg:w-80 bg-white rounded-lg shadow-md p-4 sm:p-6 hover:shadow-lg transition-shadow duration-300">
+            <div className="flex justify-center mb-3 sm:mb-4">
               {renderStars()}
             </div>
             
-            <h3 className="text-lg font-bold text-gray-800 mb-3 text-center">
+            <h3 className="text-base sm:text-lg font-bold text-gray-800 mb-2 sm:mb-3 text-center">
               {testimonial.title}
             </h3>
             
-            <div className="mb-4">
-              <p className="text-gray-700 text-sm leading-relaxed italic text-center">
+            <div className="mb-3 sm:mb-4">
+              <p className="text-gray-700 text-xs sm:text-sm leading-relaxed italic text-center">
                 &quot;{testimonial.content}&quot;
               </p>
             </div>
             
             <div className="text-center">
-              <div className="text-sm text-gray-600">
+              <div className="text-xs sm:text-sm text-gray-600">
                 <span className="font-semibold">{testimonial.author}</span>
                 <span className="mx-2">•</span>
                 <span>{testimonial.date}</span>
@@ -215,13 +239,13 @@ export default function TestimonialsCarousel() {
       </div>
 
       {/* Indicateurs de pagination */}
-      <div className="flex justify-center space-x-2 mt-8">
-        {Array.from({ length: Math.ceil(testimonials.length / 5) }, (_, i) => (
+      <div className="flex justify-center space-x-2 mt-6 sm:mt-8">
+        {Array.from({ length: Math.ceil(testimonials.length / testimonialsPerView) }, (_, i) => (
           <button
             key={i}
             onClick={() => goToSlide(i)}
-            className={`w-3 h-3 rounded-full transition-colors duration-200 ${
-              Math.floor(currentIndex / 5) === i ? 'bg-blue-600' : 'bg-gray-300'
+            className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-colors duration-200 ${
+              Math.floor(currentIndex / testimonialsPerView) === i ? 'bg-blue-600' : 'bg-gray-300'
             }`}
           />
         ))}

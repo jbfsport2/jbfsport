@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { X } from 'lucide-react';
+import { X, ChevronLeft } from 'lucide-react';
 
 interface SubSubCategory {
   id: string;
@@ -48,12 +48,24 @@ export default function CategoryNavigation({ isOpen, onClose }: Props) {
   const [, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState('');
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
       fetchCategories();
     }
   }, [isOpen]);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    
+    checkMobile();
+    window.addEventListener('resize', checkMobile);
+    
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
 
   const fetchCategories = async () => {
     try {
@@ -73,21 +85,6 @@ export default function CategoryNavigation({ isOpen, onClose }: Props) {
     }
   };
 
-/*   const fetchProducts = async (subSubCategoryId: string) => {
-    try {
-      const response = await fetch(`/api/subsubcategories/${subSubCategoryId}/products`);
-      if (response.ok) {
-        const data = await response.json();
-        setProducts(data);
-      } else {
-        setError('Erreur lors de la récupération des produits');
-      }
-    } catch (error) {
-      console.error('Erreur lors de la récupération des produits:', error);
-      setError('Erreur de connexion');
-    }
-  }; */
-
   const handleClose = () => {
     setSelectedCategory(null);
     setSelectedSubCategory(null);
@@ -96,8 +93,184 @@ export default function CategoryNavigation({ isOpen, onClose }: Props) {
     onClose();
   };
 
+  const goBack = () => {
+    if (selectedSubCategory) {
+      setSelectedSubCategory(null);
+    } else if (selectedCategory) {
+      setSelectedCategory(null);
+    }
+  };
+
   if (!isOpen) return null;
 
+  // Version mobile - Navigation empilée
+  if (isMobile) {
+    return (
+      <div className="fixed inset-0 z-50 flex">
+        {/* Overlay */}
+        <div className="fixed inset-0 bg-black/20 backdrop-blur-sm" onClick={handleClose} />
+
+        {/* Menu mobile */}
+        <div className="fixed right-0 top-0 h-full w-full max-w-sm bg-white shadow-lg transform transition-transform duration-300 ease-in-out">
+          <div className="p-4 h-full flex flex-col">
+            {/* Header avec bouton retour */}
+            <div className="flex justify-between items-center mb-6 flex-shrink-0">
+              {selectedCategory || selectedSubCategory ? (
+                <button 
+                  onClick={goBack}
+                  className="flex items-center text-gray-600 hover:text-gray-800 p-2 rounded-lg hover:bg-gray-50 transition-colors"
+                >
+                  <ChevronLeft size={20} />
+                  <span className="ml-2 font-medium">Retour</span>
+                </button>
+              ) : (
+                <h2 className="text-xl font-semibold text-gray-800">Catégories</h2>
+              )}
+              <button onClick={handleClose} className="text-gray-500 hover:text-gray-700 p-2 rounded-lg hover:bg-gray-50 transition-colors">
+                <X size={24} />
+              </button>
+            </div>
+
+            {/* Contenu principal avec scroll */}
+            <div className="flex-1 overflow-y-auto">
+              {loading ? (
+                <div className="text-center py-8">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
+                  <p className="mt-2 text-gray-600">Chargement...</p>
+                </div>
+              ) : error ? (
+                <div className="text-center py-8">
+                  <p className="text-red-600">{error}</p>
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {/* Affichage des catégories principales */}
+                  {!selectedCategory && !selectedSubCategory && (
+                    <>
+                      {categories.map((category) => (
+                        <div key={category.id}>
+                          {category.subCategories && category.subCategories.length > 0 ? (
+                            <button
+                              onClick={() => setSelectedCategory(category)}
+                              className="w-full text-left p-4 rounded-lg hover:bg-blue-50 transition-all duration-200 flex items-center justify-between group border border-gray-200 hover:border-blue-300"
+                            >
+                              <span className="text-gray-700 group-hover:text-blue-600 transition-colors font-medium">
+                                {category.name}
+                              </span>
+                              <div className="flex items-center space-x-2">
+                                <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                                  {category.subCategories.length} sous-catégories
+                                </span>
+                                <svg className="w-5 h-5 text-gray-400 group-hover:text-blue-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                              </div>
+                            </button>
+                          ) : (
+                            <Link
+                              href={`/${category.slug}`}
+                              className="w-full text-left p-4 rounded-lg hover:bg-blue-50 transition-all duration-200 block border border-gray-200 hover:border-blue-300"
+                              onClick={onClose}
+                            >
+                              <span className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+                                {category.name}
+                              </span>
+                            </Link>
+                          )}
+                        </div>
+                      ))}
+                    </>
+                  )}
+
+                  {/* Affichage des sous-catégories */}
+                  {selectedCategory && !selectedSubCategory && (
+                    <>
+                      <div className="mb-4 p-3 bg-blue-50 rounded-lg border border-blue-200">
+                        <h3 className="text-lg font-semibold text-blue-600 mb-1">
+                          {selectedCategory.name}
+                        </h3>
+                        <p className="text-sm text-blue-700">
+                          Choisissez une sous-catégorie
+                        </p>
+                      </div>
+                      {selectedCategory.subCategories?.map((subCategory) => (
+                        <div key={subCategory.id}>
+                          {subCategory.subSubCategories && subCategory.subSubCategories.length > 0 ? (
+                            <button
+                              onClick={() => setSelectedSubCategory(subCategory)}
+                              className="w-full text-left p-4 rounded-lg hover:bg-green-50 transition-all duration-200 flex items-center justify-between group border border-gray-200 hover:border-green-300"
+                            >
+                              <span className="text-gray-700 group-hover:text-green-600 transition-colors font-medium">
+                                {subCategory.name}
+                              </span>
+                              <div className="flex items-center space-x-2">
+                                <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded-full">
+                                  {subCategory.subSubCategories.length} produits
+                                </span>
+                                <svg className="w-5 h-5 text-gray-400 group-hover:text-green-600 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                                </svg>
+                              </div>
+                            </button>
+                          ) : (
+                            <Link
+                              href={`/${selectedCategory.slug}/${subCategory.slug}`}
+                              className="w-full text-left p-4 rounded-lg hover:bg-green-50 transition-all duration-200 block border border-gray-200 hover:border-green-300"
+                              onClick={onClose}
+                            >
+                              <span className="text-gray-700 hover:text-green-600 transition-colors font-medium">
+                                {subCategory.name}
+                              </span>
+                            </Link>
+                          )}
+                        </div>
+                      ))}
+                    </>
+                  )}
+
+                  {/* Affichage des sous-sous-catégories */}
+                  {selectedSubCategory && (
+                    <>
+                      <div className="mb-4 p-3 bg-green-50 rounded-lg border border-green-200">
+                        <h3 className="text-lg font-semibold text-green-600 mb-1">
+                          {selectedSubCategory.name}
+                        </h3>
+                        <p className="text-sm text-green-700">
+                          Découvrez nos produits
+                        </p>
+                      </div>
+                      {selectedSubCategory.subSubCategories?.map((subSubCategory) => (
+                        <Link
+                          key={subSubCategory.id}
+                          href={`/${selectedCategory?.slug}/${selectedSubCategory.slug}/${subSubCategory.slug}`}
+                          className="w-full text-left p-4 rounded-lg hover:bg-purple-50 transition-all duration-200 block border border-gray-200 hover:border-purple-300"
+                          onClick={onClose}
+                        >
+                          <span className="text-gray-700 hover:text-purple-600 transition-colors font-medium">
+                            {subSubCategory.name}
+                          </span>
+                        </Link>
+                      ))}
+                    </>
+                  )}
+                </div>
+              )}
+            </div>
+
+            {/* Footer avec informations */}
+            <div className="mt-6 pt-4 border-t border-gray-200 flex-shrink-0">
+              <div className="text-center text-sm text-gray-500">
+                <p>Navigation par catégories</p>
+                <p className="text-xs mt-1">Trouvez rapidement vos produits</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Version desktop - Sidebars multiples
   return (
     <div className="fixed inset-0 z-50 flex">
       {/* Overlay */}

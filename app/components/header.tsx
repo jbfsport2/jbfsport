@@ -10,13 +10,12 @@ import { FaPhone } from 'react-icons/fa';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isSearchOpen] = useState(false);
   const [isCategoryNavOpen, setIsCategoryNavOpen] = useState(false);
 
   return (
     <>
-      {/* Barre supérieure grise avec informations */}
-      <div className="bg-gray-100 text-gray-700 text-sm border-b border-gray-200">
+      {/* Barre supérieure grise avec informations - Masquée sur mobile */}
+      <div className="hidden md:block bg-gray-100 text-gray-700 text-sm border-b border-gray-200">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center py-3">
             <div className="flex items-center space-x-8">
@@ -84,23 +83,21 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Barre de recherche mobile - corrigée */}
-          {isSearchOpen && (
-            <div className="md:hidden pb-4">
-              <div className="relative">
-                <input
-                  type="text"
-                  placeholder="Chercher un produit..."
-                  className="w-full px-4 py-3 bg-white border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800 placeholder-gray-500"
-                />
-                <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition-colors">
-                  <Search className="w-4 h-4" />
-                </button>
-              </div>
+          {/* Barre de recherche mobile - visible par défaut sur mobile */}
+          <div className="md:hidden pb-4">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Chercher un produit..."
+                className="w-full px-4 py-3 bg-white border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-gray-800 placeholder-gray-500"
+              />
+              <button className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-blue-600 text-white p-2 rounded-md hover:bg-blue-700 transition-colors">
+                <Search className="w-4 h-4" />
+              </button>
             </div>
-          )}
+          </div>
 
-          {/* Navigation principale */}
+          {/* Navigation principale - Masquée sur mobile */}
           <nav className="hidden md:block">
             <div className="flex justify-between py-4 container mx-auto">
               <div className="flex items-center justify-center space-x-2">
@@ -136,7 +133,7 @@ export default function Header() {
             </div>
           </nav>
 
-          {/* Barre de contact grise */}
+          {/* Barre de contact grise - Masquée sur mobile */}
           <div className="hidden md:block bg-gray-100 border-t border-gray-200 w-full">
             <div className="flex justify-center items-center px-4">
               <div className="text-center">
@@ -150,11 +147,11 @@ export default function Header() {
         </div>
       </header>
 
-      {/* Menu mobile */}
+      {/* Menu mobile - Amélioré avec meilleure organisation */}
       {isMenuOpen && (
         <div className="md:hidden fixed inset-0 z-50">
-          <div className="fixed inset-0 bg-black bg-opacity-50" onClick={() => setIsMenuOpen(false)} />
-          <div className="fixed right-0 top-0 h-full w-80 bg-white shadow-lg">
+          <div className="fixed inset-0 bg-black/20 backdrop-blur-sm" onClick={() => setIsMenuOpen(false)} />
+          <div className="fixed right-0 top-0 h-full w-80 bg-white shadow-lg transform transition-transform duration-300 ease-in-out">
             <div className="p-6">
               <div className="flex justify-between items-center mb-6">
                 <h2 className="text-xl font-semibold text-gray-800">Menu</h2>
@@ -162,60 +159,84 @@ export default function Header() {
                   <X size={24} />
                 </button>
               </div>
+              
+              {/* Section principale */}
               <nav className="space-y-4">
-                <div className="flex items-center space-x-2">
+                {/* Bouton catégories avec icône */}
+                <div className="border-b border-gray-200 pb-4">
                   <button
                     onClick={() => {
                       setIsMenuOpen(false);
                       setIsCategoryNavOpen(true);
                     }}
-                    className="p-1 text-gray-600 hover:text-blue-600 transition-colors"
+                    className="w-full flex items-center justify-between p-3 rounded-lg hover:bg-gray-50 transition-colors text-left"
                   >
-                    <Menu className="w-4 h-4" />
+                    <div className="flex items-center space-x-3">
+                      <Menu className="w-5 h-5 text-blue-600" />
+                      <span className="font-semibold text-gray-800">Tous nos produits</span>
+                    </div>
+                    <svg className="w-5 h-5 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                    </svg>
                   </button>
+                </div>
+
+                {/* Liens principaux */}
+                <div className="space-y-2">
                   <Link 
-                    href="/produits" 
-                    className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
+                    href="/promotions" 
+                    className="block p-3 rounded-lg hover:bg-gray-50 transition-colors"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Tous nos produits
+                    <span className="text-orange-600 font-medium">Promotions</span>
+                  </Link>
+                  <Link 
+                    href="/offre-responsable" 
+                    className="block p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <span className="text-green-600 font-medium">Offre responsable</span>
+                  </Link>
+                  <Link 
+                    href="/essentiels" 
+                    className="block p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <span className="text-blue-700 font-medium">Les Essentiels</span>
+                  </Link>
+                  <Link 
+                    href="/devis" 
+                    className="block p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <span className="text-gray-700 font-medium">Devis & Commande rapide</span>
                   </Link>
                 </div>
-                <Link 
-                  href="/promotions" 
-                  className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Promotions
-                </Link>
-                <Link 
-                  href="/offre-responsable" 
-                  className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Offre responsable
-                </Link>
-                <Link 
-                  href="/essentiels" 
-                  className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Les Essentiels
-                </Link>
-                <Link 
-                  href="/devis" 
-                  className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Devis & Commande rapide
-                </Link>
-                <Link 
-                  href="/contact" 
-                  className="block text-gray-700 hover:text-blue-600 font-medium py-2 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Contactez-nous
-                </Link>
+
+                {/* Section contact */}
+                <div className="border-t border-gray-200 pt-4">
+                  <Link 
+                    href="/contact" 
+                    className="block p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    <span className="text-blue-600 font-medium">Contactez-nous</span>
+                  </Link>
+                </div>
+
+                {/* Informations de contact mobile */}
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <div className="text-sm text-gray-600 space-y-2">
+                    <div className="flex items-center space-x-2">
+                      <FaPhone className="w-4 h-4 text-blue-600" />
+                      <span>06 72 14 54 74</span>
+                    </div>
+                    <div className="flex items-center space-x-2">
+                      <Clock className="w-4 h-4 text-blue-600" />
+                      <span>Lun-Ven 09H-12h30 et 13h30-17H</span>
+                    </div>
+                  </div>
+                </div>
               </nav>
             </div>
           </div>

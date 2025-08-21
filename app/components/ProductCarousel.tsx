@@ -27,10 +27,32 @@ interface ProductCarouselProps {
 export default function ProductCarousel({ products, title, subtitle, className = "" }: ProductCarouselProps) {
   const [currentPage, setCurrentPage] = useState(0);
   const carouselRef = useRef<HTMLDivElement>(null);
+  const [isMobile, setIsMobile] = useState(false);
+  const [isTablet, setIsTablet] = useState(false);
 
   // Calcul des variables avant la vérification conditionnelle
-  const productsPerView = 4; // Nombre de produits visibles à la fois
+  const getProductsPerView = () => {
+    if (isMobile) return 1;
+    if (isTablet) return 2;
+    return 4;
+  };
+
+  const productsPerView = getProductsPerView();
   const totalPages = products && products.length > 0 ? Math.ceil(products.length / productsPerView) : 0;
+
+  // Vérification de la taille d'écran
+  useEffect(() => {
+    const checkScreenSize = () => {
+      const width = window.innerWidth;
+      setIsMobile(width < 640);
+      setIsTablet(width >= 640 && width < 1024);
+    };
+    
+    checkScreenSize();
+    window.addEventListener('resize', checkScreenSize);
+    
+    return () => window.removeEventListener('resize', checkScreenSize);
+  }, []);
 
   // Défilement automatique - DOIT être avant le return conditionnel
   useEffect(() => {
@@ -59,27 +81,24 @@ export default function ProductCarousel({ products, title, subtitle, className =
   };
 
   return (
-    <section className={`py-16 ${className}`}>
+    <section className={`py-8 sm:py-12 lg:py-16 ${className}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* En-tête avec titre et navigation */}
-        <div className="flex items-center justify-between mb-8">
-          <div className="text-center sm:text-left">
-            <h2 className="text-3xl font-bold text-gray-900 mb-2">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 sm:mb-8">
+          <div className="text-center sm:text-left mb-4 sm:mb-0">
+            <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900 mb-2">
               {title}
             </h2>
             {subtitle && (
-              <p className="text-lg text-gray-600 max-w-2xl">
+              <p className="text-sm sm:text-base lg:text-lg text-gray-600 max-w-2xl">
                 {subtitle}
               </p>
             )}
           </div>
-
         </div>
 
         {/* Carousel */}
         <div className="relative">
-          
-
           {/* Container du carousel */}
           <div className="overflow-hidden">
             <div
@@ -93,7 +112,7 @@ export default function ProductCarousel({ products, title, subtitle, className =
               {Array.from({ length: totalPages }, (_, pageIndex) => (
                 <div
                   key={pageIndex}
-                  className="flex flex-shrink-0 px-4"
+                  className="flex flex-shrink-0 px-2 sm:px-4"
                   style={{ width: `${100 / totalPages}%` }}
                 >
                   {products
@@ -101,7 +120,7 @@ export default function ProductCarousel({ products, title, subtitle, className =
                     .map((product) => (
                       <div
                         key={product.id}
-                        className="flex-shrink-0 px-2"
+                        className="flex-shrink-0 px-1 sm:px-2"
                         style={{ width: `${100 / productsPerView}%` }}
                       >
                         <ProductCard product={product} />
@@ -115,13 +134,13 @@ export default function ProductCarousel({ products, title, subtitle, className =
 
         {/* Indicateurs de position */}
         {totalPages > 1 && (
-          <div className="flex justify-center mt-8">
+          <div className="flex justify-center mt-6 sm:mt-8">
             <div className="flex space-x-2">
               {Array.from({ length: totalPages }, (_, index) => (
                 <button
                   key={index}
                   onClick={() => goToPage(index)}
-                  className={`w-3 h-3 rounded-full transition-colors ${
+                  className={`w-2 h-2 sm:w-3 sm:h-3 rounded-full transition-colors ${
                     currentPage === index
                       ? 'bg-blue-600'
                       : 'bg-gray-300 hover:bg-gray-400'
@@ -134,7 +153,7 @@ export default function ProductCarousel({ products, title, subtitle, className =
         )}
 
         {/* Compteur de position */}
-        <div className="text-center mt-4 text-sm text-gray-500">
+        <div className="text-center mt-3 sm:mt-4 text-xs sm:text-sm text-gray-500">
           {totalPages > 1 && (
             <span>
               Page {currentPage + 1} sur {totalPages} | {products.length} produits
